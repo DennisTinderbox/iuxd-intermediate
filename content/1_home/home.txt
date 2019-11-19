@@ -1,9 +1,14 @@
-Title: My Awesome IUXD Topic
+Title: Workflows
 
 ----
 
 Text:
 
-Hi IUXD Student, this is the IUXD-Intermediate Template Repository.
+Stap 1: De repo werkt  <i class="fas fa-check-circle"></i>
+Stap 2: Kirby werkt  <i class="fas fa-check-circle"></i>
+Stap 3: De panel werkt  <i class="fas fa-check-circle"></i>
+Stap 4: De boot is gestrapt  
 
-As you can see Kirby and Bootstrap have been provided. Good luck with realising the 0.1 one pager!
+
+<i class="fas fa-rocket fa-5x"></i>
+We zijn er klaar voor!
