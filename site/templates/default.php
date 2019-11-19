@@ -12,15 +12,53 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap" rel="stylesheet">
 
     <!-- page CSS -->
-    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="assets\css\default.css">
+
 
     <title><?= $page->title() ?></title>
     <script src="https://kit.fontawesome.com/1ca334bc77.js" crossorigin="anonymous"></script>
   </head>
   <body class="default">
-    <h1><?= $page->title() ?></h1>
-
-    <p><?= $page->text()->kirbytext() ?></p>
+    <div class="container">
+      <h1><?= $page->title() ?></h1>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">
+              Mooi titel zo
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p><?= $page->text()->kirbytext() ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">
+              Mooi titel zo
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">
+              Mooi titel zo
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
