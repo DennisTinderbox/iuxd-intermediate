@@ -2,10 +2,16 @@
 *, h1, h2, h3, h4, h5, h6, p, input {
   font-family: 'Nunito', sans-serif;
 }
-body{
+
+body {
   background: #f8f9fc;
 }
-h1{
+
+.default {
+    margin-top: 80px;
+}
+
+h1 {
   color: #5a5c69;
   font-size: 1.75rem;
 }
