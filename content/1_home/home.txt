@@ -8,7 +8,7 @@ Stap 1: De repo werkt  <i class="fas fa-check-circle"></i>
 Stap 2: Kirby werkt  <i class="fas fa-check-circle"></i>
 Stap 3: De panel werkt  <i class="fas fa-check-circle"></i>
 Stap 4: De boot is gestrapt  
-Stap 5: Nou, hosternokke, van Heest is binnen hoor... En nu gaan we bier drinken
+Stap 5: Nou, hosternokke, van Heest is binnen hoor... En nu gaan we bier drinken. En veel <i class="fas fa-beer"></i>
 
 
 <i class="fas fa-rocket fa-5x"></i>
