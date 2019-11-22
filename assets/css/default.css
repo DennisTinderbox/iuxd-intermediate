@@ -63,11 +63,11 @@ body {
     src: url('../fonts/Inter-Regular.woff2') format('woff2');
 }
 
-h1, h2, h3, h4, button {
+h1, h2, h3, button {
     font-family: 'Inter-Bold';
 }
 
-h5, h6, p, input {
+h4, h5, h6, p, input {
     font-family: 'Inter-Regular';
 }
 
@@ -88,19 +88,26 @@ h2 {
 h3 {
     font-size: 2rem;
     color: var(--color-donkergrijs);
-    text-align: center;
-    margin: 16px 0px;
+    text-align: left;
+    margin: 40px 0px 16px 0px;
 }
 
 h4 {
     font-size: 1.5rem;
-    color: var(--color-piecieDonkergrijs);
+    color: var(--color-donkergrijs);
+    /* color: var(--color-piecieDonkergrijs); */
     text-align: left;
-    margin-bottom: 16px;
+    margin: 16px 0px;
 }
 
-h4#h4_header {
+.new_section:first-child h4 {
     text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--color-piecieDonkergrijs);
+    margin-bottom: 24px;
 }
 
 
@@ -159,6 +166,11 @@ hr {
     background-color: var(--color-grunerTag);
 }
 
+figure {
+    margin: 0px;
+}
+
 img {
     width: 100%;
+    margin: 24px 0px;
 }

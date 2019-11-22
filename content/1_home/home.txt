@@ -2,7 +2,7 @@ Title: Workshop Workflows
 
 ----
 
-Description: Dit is een korte introductie in wat deze workshop nu eigenlijk is. Hier staat zomaar een regeltje of 2 a 3 aan tekst. Lekker toch?
+Description: #### Onze missie is om creatieve designers met weinig technische know-how de mogelijkheid te geven om hun werk te automatiseren.
 
 ----
 
@@ -10,11 +10,11 @@ Introduction-title: ## Wat je gaat leren
 
 ----
 
-Introduction-subtitle: #### Dit is een kort verhaaltje over wat je gaat leren in deze workshop. Hier staat zomaar een regeltje of 2 a 3 aan tekst. Lekker toch?
+Introduction-subtitle: #### Automatiseren? Dat klinkt lastig, maar dat is het eigenlijk helemaal niet. Met de juiste tools en een gezond verstand kunnen we dit allemaal.
 
 ----
 
-Introduction-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Introduction-paragraph: In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen).
 
 ----
 
@@ -33,10 +33,24 @@ Introduction-tldr-list:
 Text:
 
 ### The right tool for the job
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We schetsen in dit stukje kort het verhaal over het aantal bomen kappen en welke tool je hiervoor gebruikt: baby-bijl, papa-bijl of #motherfockingkettingzaag. Dit doen we natuurlijk met een of meerdere images. Misschien moet dit wel een image zijn in een grid ofzo? Geen idee nog tbh. Laten we de killerclown er maar uithouden van de keer.
+
+(image: image_placeholder.png)
+
+Hier hebben we het natuurlijk ook kort over Stephen Covey en het concept van "Sharpen the Saw". Mogelijk ook met een lekker plaatje? 
+
+(image: image_placeholder.png)
+
+We eindigen kort met een epic quote van Alex King.
+
+> The correct tool is making you exponentially more productive. ~ Alex King
 
 ### Wat haal ik dan uit deze tijdsinvestering?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+In dit stukje introduceren we de opdracht van de ANWB met als quote een copy van de ontwerpopgave. Als jij die designed en bouwt deel ik van t weekend nog wel ff de correcte content.
+
+> Doe even heel veel prototypes maken en goed onderbouwen om erachter te komen wat de beste oplossing is.  ~ ANWB TUUTUUT
+
+Hieronder tonen en vertellen we ook nog kort de inhoud van slide 12, 13 en 14?
 
 ### Tools aan elkaar koppelen: Hoe pak ik dat aan?
 #### Toolkit
@@ -44,10 +58,31 @@ Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
 
 (image: image_toolkit.png)
 
-We bespreken in dit stukje tekst kort de diverse pipelines die in bovenstaande afbeelding staan. Dit doen we door uit te leggen hoe de pipelines opgebouwd zijn, waarom we dit zouden gebruiken, wanneer dit handig is en hoe het precies werkt. We geven een specifiek voorbeeld van gebruik zodat lezers dit begrijpen.
+We bespreken in dit stukje tekst kort welke tools je allemaal kunt gebruiken om je werk te automatiseren. We leggen kort uit waarom dit voornamelijk makkelijk is met web-applicaties en vertellen kort over de kracht van Zapier, IFTTT en wat je hier dan allemaal mee zou kunnen doen.
 
 #### Pipeline voorbeelden
+Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
+
+(image: image_pipeline_example.png)
+
+We bespreken in dit stukje tekst kort de diverse pipelines die in bovenstaande afbeelding staan. Dit doen we door uit te leggen hoe de pipelines opgebouwd zijn, waarom we dit zouden gebruiken, wanneer dit handig is en hoe het precies werkt. We geven een specifiek voorbeeld van gebruik zodat lezers dit begrijpen.
+
 
 ### Opdracht: Maak je eigen pipeline
+Hier leggen we de verschillende stappen van de opdracht uit en vragen we mensen om de opdracht uit te voeren. Daarna laten we natuurlijk ook een voorbeelduitwerking zien, natuurlijk met een kort videotje oid.
+
+We beginnen bijvoorbeeld met het kort introduceren van de product-website van Drogisterij.net en laten zien in welke context we gaan werken.
+
+(image: image_placeholder.png)
+
+Daaronder leggen we kort de stappen uit die we gaan doorlopen.
+
+1. Stap
+2. Stap
+3. Jeweetzelf
+
+Uiteindelijk leggen we nog een heleboel shit uit en uiteindelijk eindigen we uit met een voorbeeld-uitwerking video van hoe deze opdracht uitgevoerd zou kunnen worden.
+
+(image: video_placeholder.png)
 
 ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?

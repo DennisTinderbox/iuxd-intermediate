@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col-6 offset-3">
                         <h1><?= $page->title() ?></h1>
-                        <h4 id="h4_header"><?= $page->description()->kirbytext() ?></h4>
+                        <h4><?= $page->description()->kirbytext() ?></h4>
                     </div>
                 </div>
             </div>
