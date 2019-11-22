@@ -1,32 +1,39 @@
-Title: Workflows
+Title: Workshop Workflows
+
+----
+
+Description: Dit is een korte introductie in wat deze workshop nu eigenlijk is. Hier staat zomaar een regeltje of 2 a 3 aan tekst. Lekker toch?
+
+----
+
+Introduction-title: ## Wat je gaat leren
+
+----
+
+Introduction-subtitle: #### Dit is een kort verhaaltje over wat je gaat leren in deze workshop. Hier staat zomaar een regeltje of 2 a 3 aan tekst. Lekker toch?
+
+----
+
+Introduction-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+----
+
+Introduction-tldr: ## TL;DR
+
+----
+
+Introduction-tldr-list:
+
+- Dit leer je
+- Dit leer je ook
+- En misschien zelfs dit
 
 ----
 
 Text:
 
-Stap 1: De repo werkt  <i class="fas fa-check-circle"></i>
-Stap 2: Kirby werkt  <i class="fas fa-check-circle"></i>
-Stap 3: De panel werkt  <i class="fas fa-check-circle"></i>
-Stap 4: De boot is gestrapt  
-Stap 5: Nou, hosternokke, van Heest is binnen hoor... En nu gaan we bier drinken. En veel <i class="fas fa-beer"></i>
+### Dit is een titel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
-<i class="fas fa-rocket fa-5x"></i>
-We zijn er klaar voor!
-
-----
-
-Test:
-
-Stap 1: heujj volgens mij begrijpt van Heest het
-
-<i class="fas fa-rocket fa-5x"></i>
-We zijn er klaar voor!
-
-----
-
-Jemoeder:
-
-Stap 1: Lukt dit dan ook?
-
-<i class="fas fa-female fa-5x"></i>
+### Dit is nog een titel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

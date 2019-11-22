@@ -1,6 +1,30 @@
 title: Default Page
 preset: page
 fields:
+  description:
+    label: Description
+    type: textarea
+    size: small
+  introduction_title:
+    label: Introduction Title
+    type: textarea
+    size: small
+  introduction_subtitle:
+    label: Introduction Subtitle
+    type: textarea
+    size: small
+  introduction_paragraph:
+    label: Introduction Paragraph
+    type: textarea
+    size: large
+  introduction_tldr:
+    label: Introduction TL;DR
+    type: textarea
+    size: small
+  introduction_tldr_list:
+    label: Introduction TL;DR List
+    type: textarea
+    size: small
   text:
     label: Text
     type: textarea
