@@ -34,7 +34,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     --moz-transition: all .24s ease-in 0s;
     --webkit-transition: all .24s ease-in 0s;
     --o-transition: all .24s ease-in 0s;
- }
+}
+
+::selection {
+    color: #FFFFFF;
+    background: var(--color-eenGoeieOranje);
+}
+::-moz-selection {
+    color: #FFFFFF;
+    background: var(--color-eenGoeieOranje);
+}
 
 body {
     overflow-x: hidden !important;
