@@ -22,7 +22,7 @@
         <section class="new_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 offset-md-3">
+                    <div class="col-12 col-md-8 offset-md-2">
                         <h1><?= $page->title() ?></h1>
                         <h4><?= $page->description()->kirbytext() ?></h4>
                     </div>
