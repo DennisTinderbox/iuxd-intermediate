@@ -13,3 +13,20 @@ Stap 5: Nou, hosternokke, van Heest is binnen hoor... En nu gaan we bier drinken
 
 <i class="fas fa-rocket fa-5x"></i>
 We zijn er klaar voor!
+
+----
+
+Test:
+
+Stap 1: heujj volgens mij begrijpt van Heest het
+
+<i class="fas fa-rocket fa-5x"></i>
+We zijn er klaar voor!
+
+----
+
+Jemoeder:
+
+Stap 1: Lukt dit dan ook?
+
+<i class="fas fa-female fa-5x"></i>

@@ -40,7 +40,8 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <p><?= $page->test()->kirbytext() ?></p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -52,7 +53,7 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p><?= $page->jemoeder()->kirbytext() ?></p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
