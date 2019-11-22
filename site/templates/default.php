@@ -43,12 +43,12 @@
         <section class="new_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-7">
                         <h2><?= $page->introduction_title()->kirbytext() ?></h2>
                         <h4><?= $page->introduction_subtitle()->kirbytext() ?></h4>
                         <p><?= $page->introduction_paragraph()->kirbytext() ?></p>
                     </div>
-                    <div class="col-3 offset-1">
+                    <div class="col-4 offset-1">
                         <h2><?= $page->introduction_tldr()->kirbytext() ?></h2>
                         <ul>
                             <li><?= $page->introduction_tldr_list()->kirbytext() ?></li>
@@ -72,8 +72,44 @@
             <div class="container">
                 <div class="row">
                     <div class="col-8 offset-2">
-                        <!-- <h3>test</h3> -->
                         <p><?= $page->text()->kirbytext() ?></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="new_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="new_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 offset-2">
+                        <h3>Download workshop bestanden</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=col-4>
+                        <button class="button_download">Presentatie</button>
+                    </div>
+                    <div class=col-4>
+                        <button class="button_download">Voorbeeld uitwerking</button>
+                    </div>
+                    <div class=col-4>
+                        <button class="button_download">Uitwerk template</button>
+                    </div>
+                    <div class=col-4>
+                        <button class="button_download">Uitwerk handout</button>
+                    </div>
+                    <div class=col-4>
+                        <button class="button_download">Onderbouwing oid</button>
                     </div>
                 </div>
             </div>

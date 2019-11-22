@@ -24,16 +24,30 @@ Introduction-tldr: ## TL;DR
 
 Introduction-tldr-list:
 
-- Dit leer je
-- Dit leer je ook
-- En misschien zelfs dit
+- Voorbereiding is de beste bereiding
+- Hoe je tools aan elkaar koppelt
+- En misschien zelfs nog wel iets, insert tekst
 
 ----
 
 Text:
 
-### Dit is een titel
+### The right tool for the job
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Dit is nog een titel
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Wat haal ik dan uit deze tijdsinvestering?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+### Tools aan elkaar koppelen: Hoe pak ik dat aan?
+#### Toolkit
+Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
+
+(image: image_toolkit.png)
+
+We bespreken in dit stukje tekst kort de diverse pipelines die in bovenstaande afbeelding staan. Dit doen we door uit te leggen hoe de pipelines opgebouwd zijn, waarom we dit zouden gebruiken, wanneer dit handig is en hoe het precies werkt. We geven een specifiek voorbeeld van gebruik zodat lezers dit begrijpen.
+
+#### Pipeline voorbeelden
+
+### Opdracht: Maak je eigen pipeline
+
+### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
