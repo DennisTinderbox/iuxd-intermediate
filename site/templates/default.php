@@ -22,7 +22,7 @@
         <section class="new_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 offset-3">
+                    <div class="col-12 col-md-6 offset-md-3">
                         <h1><?= $page->title() ?></h1>
                         <h4><?= $page->description()->kirbytext() ?></h4>
                     </div>
@@ -43,12 +43,12 @@
         <section class="new_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-12 col-md-7">
                         <h2><?= $page->introduction_title()->kirbytext() ?></h2>
                         <h4><?= $page->introduction_subtitle()->kirbytext() ?></h4>
                         <p><?= $page->introduction_paragraph()->kirbytext() ?></p>
                     </div>
-                    <div class="col-4 offset-1">
+                    <div class="col-12 col-md-4 offset-md-1">
                         <h2><?= $page->introduction_tldr()->kirbytext() ?></h2>
                         <ul>
                             <li><?= $page->introduction_tldr_list()->kirbytext() ?></li>
@@ -71,7 +71,7 @@
         <section class="new_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 offset-2">
+                    <div class="col-12 col-md-8 offset-md-2">
                         <p><?= $page->text()->kirbytext() ?></p>
                     </div>
                 </div>
@@ -91,24 +91,24 @@
         <section class="new_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 offset-2">
+                <div class="col-12 col-md-8 offset-md-2">
                         <h3>Download workshop bestanden</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class=col-4>
+                    <div class="col-12 col-md-4">
                         <button class="button_download">Presentatie</button>
                     </div>
-                    <div class=col-4>
+                    <div class="col-12 col-md-4">
                         <button class="button_download">Voorbeeld uitwerking</button>
                     </div>
-                    <div class=col-4>
+                    <div class="col-12 col-md-4">
                         <button class="button_download">Uitwerk template</button>
                     </div>
-                    <div class=col-4>
+                    <div class="col-12 col-md-4">
                         <button class="button_download">Uitwerk handout</button>
                     </div>
-                    <div class=col-4>
+                    <div class="col-12 col-md-4">
                         <button class="button_download">Onderbouwing oid</button>
                     </div>
                 </div>
