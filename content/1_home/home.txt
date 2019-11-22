@@ -83,6 +83,7 @@ Daaronder leggen we kort de stappen uit die we gaan doorlopen.
 
 Uiteindelijk leggen we nog een heleboel shit uit en uiteindelijk eindigen we uit met een voorbeeld-uitwerking video van hoe deze opdracht uitgevoerd zou kunnen worden.
 
-(image: video_placeholder.png)
+(video: https://youtu.be/7UR5Njw4D-o)
 
 ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
+Ja en hee makker, hier komt dan natuurlijk ook nog een heel mooi lulverhaaltje. Natuurlijk wel zonder GIFje van Bram Krikke of uglyfugly PowerPoint meuk. 🍆🍑

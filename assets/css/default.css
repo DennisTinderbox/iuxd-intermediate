@@ -183,3 +183,9 @@ img {
     width: 100%;
     margin: 24px 0px;
 }
+
+.video iframe {
+    width: 100%;
+    height: 412px;
+    border-radius: 16px;
+}
