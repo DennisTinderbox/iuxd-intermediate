@@ -219,9 +219,24 @@
                         <button class="button_download">Onderbouwing oid</button>
                     </div>
                 </div>
+                <hr>
             </div>
         </section>
 
+        <section class="new_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <h3>Bronnen</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <p><?= $page->bronnen()->kirbytext() ?></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

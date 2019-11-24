@@ -14,8 +14,11 @@ Introduction-subtitle: #### Automatiseren? Dat klinkt lastig, maar dat is het ei
 
 ----
 
-Introduction-paragraph: In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen). 🍺
+Introduction-paragraph:
+
+In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen). 🍺
 (image: image_placeholder.png)
+
 ----
 
 Introduction-tldr: #### In het kort
@@ -69,16 +72,6 @@ Hieronder tonen en vertellen we ook nog kort de inhoud van slide 12, 13 en 14?
 
 ----
 
-Koppelen-title: ### Tools aan elkaar koppelen: Hoe pak ik dat aan?
-
-----
-
-Koppelen-paragraph:
-
-yadayadayada
-
-----
-
 Toolkit-title: #### Toolkit
 
 ----
@@ -93,11 +86,19 @@ We bespreken in dit stukje tekst kort welke tools je allemaal kunt gebruiken om 
 
 ----
 
-pipelining-title: ### Pipelines
+Koppelen-title: ### Tools aan elkaar koppelen: Hoe pak ik dat aan?
 
 ----
 
-pipelining-paragraph:
+Koppelen-paragraph: yadayadayada
+
+----
+
+Pipelining-title: ### Pipelines
+
+----
+
+Pipelining-paragraph:
 
 Stukkie uitleg over wat pipelining is
 
@@ -110,11 +111,11 @@ We bespreken in dit stukje tekst kort de diverse pipelines die in bovenstaande a
 
 ----
 
-pipelining-tldr: #### In het kort
+Pipelining-tldr: #### In het kort
 
 ----
 
-pipelining-tldr-list:
+Pipelining-tldr-list:
 
 - Lekker vlot werken
 - Dingen automatiseren
@@ -122,11 +123,11 @@ pipelining-tldr-list:
 
 ----
 
-opdracht-title: ## Opdracht: Maak je eigen pipeline
+Opdracht-title: ## Opdracht: Maak je eigen pipeline
 
 ----
 
-opdracht-paragraph:
+Opdracht-paragraph:
 
 Hier leggen we de verschillende stappen van de opdracht uit en vragen we mensen om de opdracht uit te voeren. Daarna laten we natuurlijk ook een voorbeelduitwerking zien, natuurlijk met een kort videotje oid.
 
@@ -136,7 +137,6 @@ We beginnen bijvoorbeeld met het kort introduceren van de product-website van Dr
 
 
 Uiteindelijk leggen we nog een heleboel shit uit en uiteindelijk eindigen we uit met een voorbeeld-uitwerking video van hoe deze opdracht uitgevoerd zou kunnen worden.
-
 
 ----
 
@@ -153,14 +153,19 @@ Opdracht-stappen-list:
 
 ----
 
-tutorial: (video: https://youtu.be/7UR5Njw4D-o)
+Tutorial: (video: https://youtu.be/7UR5Njw4D-o)
 
 ----
 
-toepassing-title: ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
+Toepassing-title: ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
 
 ----
 
-toepassing-paragraph:
+Toepassing-paragraph: Ja en hee makker, hier komt dan natuurlijk ook nog een heel mooi lulverhaaltje. Natuurlijk wel zonder GIFje van Bram Krikke of uglyfugly PowerPoint meuk. 🍆🍑
 
-Ja en hee makker, hier komt dan natuurlijk ook nog een heel mooi lulverhaaltje. Natuurlijk wel zonder GIFje van Bram Krikke of uglyfugly PowerPoint meuk. 🍆🍑
+----
+
+Bronnen:
+
+- Franklin Covey. (z.d.). Habit 7: Sharpen the Saw. Geraadpleegd op 16 november 2019, van [https://www.franklincovey.com/the-7-habits/habit-7.html](https://www.franklincovey.com/the-7-habits/habit-7.html)
+- King, A., & Rands in Repose. (2009, 3 november). The Foamy Rules for Rabid Tools. Geraadpleegd op 16 november 2019, van [https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/](https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/)

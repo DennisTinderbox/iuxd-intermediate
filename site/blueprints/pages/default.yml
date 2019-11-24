@@ -101,3 +101,7 @@ fields:
     label: Toepassing paragraph
     type: textarea
     size: large
+  bronnen:
+    label: Bronnen
+    type: textarea
+    size: small
