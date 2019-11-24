@@ -163,7 +163,7 @@
                         <div class="card-body">
                           <?= $page->opdracht_stappen()->kirbytext() ?>
                           <?= $page->opdracht_stappen_list()->kirbytext() ?>
-                          <a id="Skip button" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Naar figma</a>
+                          <a id="Skip button" class="btn btn-info" href="#figmastuk" role="button"><i class="fa fa-forward"></i> Naar figma</a>
                         </div>
                       </div>
                       <div class="card tldr">
@@ -176,7 +176,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" id="figmastuk">
                   <hr>
                   <div class="col-12">
                     <h3>Probeer het zelf:</h3>
