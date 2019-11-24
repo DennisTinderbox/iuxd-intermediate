@@ -25,8 +25,79 @@ fields:
     label: Introduction TL;DR List
     type: textarea
     size: small
-  text:
-    label: Text
+  voorbereiding_title:
+    label: Voorbereiding Title
+    type: textarea
+    size: small
+  voorbereiding_paragraph:
+    label: Voorbereiding Paragraph
     type: textarea
     size: large
-
+  kiezen_title:
+    label: Tool kiezen title
+    type: textarea
+    size: small
+  kiezen_paragraph:
+    label: Tool kiezen Paragraph
+    type: textarea
+    size: large
+  toolkit_title:
+    label: Toolkit title
+    type: textarea
+    size: small
+  toolkit_paragraph:
+    label: Toolkit Paragraph
+    type: textarea
+    size: large
+  koppelen_title:
+    label: Koppelen tools title
+    type: textarea
+    size: small
+  koppelen_paragraph:
+    label: Koppelen tools paragraph
+    type: textarea
+    size: large
+  pipelining_title:
+    label: Pipelining title
+    type: textarea
+    size: small
+  pipelining_paragraph:
+    label: Pipelining paragraph
+    type: textarea
+    size: large
+  pipelining_tldr:
+    label: pipelining TL;DR
+    type: textarea
+    size: small
+  pipelining_tldr_list:
+    label: pipelining TL;DR list
+    type: textarea
+    size: small
+  opdracht_title:
+    label: Opdracht title
+    type: textarea
+    size: small
+  opdracht_paragraph:
+    label: Opdracht paragraph
+    type: textarea
+    size: large
+  opdracht_stappen:
+    label: Opdracht stappen
+    type: textarea
+    size: small
+  opdracht_stappen_list:
+    label: Opdracht stappen list
+    type: textarea
+    size: small
+  tutorial:
+    label: Youtube iframe
+    type: textarea
+    size: medium
+  toepassing_title:
+    label: Toepassing title
+    type: textarea
+    size: small
+  toepassing_paragraph:
+    label: Toepassing paragraph
+    type: textarea
+    size: large

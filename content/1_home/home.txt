@@ -15,29 +15,47 @@ Introduction-subtitle: #### Automatiseren? Dat klinkt lastig, maar dat is het ei
 ----
 
 Introduction-paragraph: In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen).
-
+(image: image_placeholder.png)
 ----
 
-Introduction-tldr: ## TL;DR
+Introduction-tldr: #### In het kort
 
 ----
 
 Introduction-tldr-list:
 
 - Voorbereiding is de beste bereiding
-- Hoe je tools aan elkaar koppelt
-- En misschien zelfs nog wel iets, insert tekst
+- Het juiste gereedschap kiezen
+- Hou een gereedschapskist bij
+- Gereedschap aan elkaar koppelen
 
 ----
 
-Text:
+Voorbereiding-title: ### Voorbereiding
 
-### The right tool for the job
+----
+
+Voorbereiding-paragraph:
+
+Waarom is het goed voorbereiden zo belangrijk?
+
+### Wat haal ik dan uit deze tijdsinvestering?
+
+In dit stukje introduceren we de opdracht van de ANWB met als quote een copy van de ontwerpopgave. Als jij die designed en bouwt deel ik van t weekend nog wel ff de correcte content.
+
+----
+
+Kiezen-title: ### Kies het juiste gereedschap voor de klus
+
+----
+
+Kiezen-paragraph:
+
 We schetsen in dit stukje kort het verhaal over het aantal bomen kappen en welke tool je hiervoor gebruikt: baby-bijl, papa-bijl of #motherfockingkettingzaag. Dit doen we natuurlijk met een of meerdere images. Misschien moet dit wel een image zijn in een grid ofzo? Geen idee nog tbh. Laten we de killerclown er maar uithouden van de keer.
 
 (image: image_placeholder.png)
 
-Hier hebben we het natuurlijk ook kort over Stephen Covey en het concept van "Sharpen the Saw". Mogelijk ook met een lekker plaatje? 
+Hier hebben we het natuurlijk ook kort over Stephen Covey en het concept van "Sharpen the Saw". Mogelijk ook met een lekker plaatje?
 
 (image: image_placeholder.png)
 
@@ -45,20 +63,43 @@ We eindigen kort met een epic quote van Alex King.
 
 > The correct tool is making you exponentially more productive. ~ Alex King
 
-### Wat haal ik dan uit deze tijdsinvestering?
-In dit stukje introduceren we de opdracht van de ANWB met als quote een copy van de ontwerpopgave. Als jij die designed en bouwt deel ik van t weekend nog wel ff de correcte content.
-
 > Doe even heel veel prototypes maken en goed onderbouwen om erachter te komen wat de beste oplossing is.  ~ ANWB TUUTUUT
 
 Hieronder tonen en vertellen we ook nog kort de inhoud van slide 12, 13 en 14?
 
-### Tools aan elkaar koppelen: Hoe pak ik dat aan?
-#### Toolkit
+----
+
+Koppelen-title: ### Tools aan elkaar koppelen: Hoe pak ik dat aan?
+
+----
+
+Koppelen-paragraph:
+
+yadayadayada
+
+----
+
+Toolkit-title: #### Toolkit
+
+----
+
+Toolkit-paragraph:
+
 Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
 
 (image: image_toolkit.png)
 
 We bespreken in dit stukje tekst kort welke tools je allemaal kunt gebruiken om je werk te automatiseren. We leggen kort uit waarom dit voornamelijk makkelijk is met web-applicaties en vertellen kort over de kracht van Zapier, IFTTT en wat je hier dan allemaal mee zou kunnen doen.
+
+----
+
+pipelining-title: ### Pipelines
+
+----
+
+pipelining-paragraph:
+
+Stukkie uitleg over wat pipelining is
 
 #### Pipeline voorbeelden
 Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
@@ -67,23 +108,59 @@ Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
 
 We bespreken in dit stukje tekst kort de diverse pipelines die in bovenstaande afbeelding staan. Dit doen we door uit te leggen hoe de pipelines opgebouwd zijn, waarom we dit zouden gebruiken, wanneer dit handig is en hoe het precies werkt. We geven een specifiek voorbeeld van gebruik zodat lezers dit begrijpen.
 
+----
 
-### Opdracht: Maak je eigen pipeline
+pipelining-tldr: #### In het kort
+
+----
+
+pipelining-tldr-list:
+
+- Lekker vlot werken
+- Dingen automatiseren
+- Je computer het werk laten doen
+
+----
+
+opdracht-title: ## Opdracht: Maak je eigen pipeline
+
+----
+
+opdracht-paragraph:
+
 Hier leggen we de verschillende stappen van de opdracht uit en vragen we mensen om de opdracht uit te voeren. Daarna laten we natuurlijk ook een voorbeelduitwerking zien, natuurlijk met een kort videotje oid.
 
 We beginnen bijvoorbeeld met het kort introduceren van de product-website van Drogisterij.net en laten zien in welke context we gaan werken.
 
 (image: image_placeholder.png)
 
-Daaronder leggen we kort de stappen uit die we gaan doorlopen.
-
-1. Stap
-2. Stap
-3. Jeweetzelf
 
 Uiteindelijk leggen we nog een heleboel shit uit en uiteindelijk eindigen we uit met een voorbeeld-uitwerking video van hoe deze opdracht uitgevoerd zou kunnen worden.
 
-(video: https://youtu.be/7UR5Njw4D-o)
 
-### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
+----
+
+Opdracht-stappen: #### We lopen je er stap voor stap doorheen
+
+----
+
+Opdracht-stappen-list:
+
+- zo
+- kan
+- het
+- ook
+
+----
+
+tutorial: (video: https://youtu.be/7UR5Njw4D-o)
+
+----
+
+toepassing-title: ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
+
+----
+
+toepassing-paragraph:
+
 Ja en hee makker, hier komt dan natuurlijk ook nog een heel mooi lulverhaaltje. Natuurlijk wel zonder GIFje van Bram Krikke of uglyfugly PowerPoint meuk. 🍆🍑
