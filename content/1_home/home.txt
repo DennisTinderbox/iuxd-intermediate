@@ -2,7 +2,7 @@ Title: Workshop Workflows
 
 ----
 
-Description: #### Onze missie is om creatieve designers met weinig technische know-how de mogelijkheid te geven om hun werk te automatiseren. Focus op wat écht belangrijk is.
+Description: #### Onze missie is om creatieve designers met weinig technische know-how de mogelijkheid te geven om hun werk te automatiseren. Focus op wat écht belangrijk is en bespaar tijd.
 
 ----
 
@@ -40,7 +40,7 @@ Voorbereiding-title: ### Voorbereiding
 
 Voorbereiding-paragraph:
 
-Waarom is het goed voorbereiden zo belangrijk?
+Het klinkt natuurlijk een beetje gek dat je aan het begin van je werk extra tijd aan de voorbereiding investeert. Het is logisch om gelijk aan de slag te willen gaan. Toch is het vaak slimmer om even te bedenken welke taken je allemaal moet doen, en wat er vaker terugkeert. Zo kun je over je gehele project een hoop tijd winnen. Hoe je dat doet leggen we je hier uit.
 
 ### Wat haal ik dan uit deze tijdsinvestering?
 
@@ -72,13 +72,13 @@ Hieronder tonen en vertellen we ook nog kort de inhoud van slide 12, 13 en 14?
 
 ----
 
-Toolkit-title: #### Toolkit
+Toolkit-title: #### Hou een gereedschapskist bij
 
 ----
 
 Toolkit-paragraph:
 
-Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
+Net als in de fysieke wereld zijn er digitaal ontelbaar veel gereedschappen die je kan gebruiken. Vaak zijn dat web-applicaties zoals Google docs, Trello of Basecamp. Soms is het software die je eerst moet installeren zoals Sketch. Net als bij een timmerman is jouw toolkit van groot belang voor je werk. Hou dus goed bij welke tools je allemaal kent en waar je ze voor kan gebruiken. We hebben hier alvast een begin gemaakt.
 
 (image: image_toolkit.png)
 
@@ -90,7 +90,13 @@ Koppelen-title: ### Tools aan elkaar koppelen: Hoe pak ik dat aan?
 
 ----
 
-Koppelen-paragraph: yadayadayada
+Koppelen-paragraph:
+
+Veel van de tools die je gebruikt beschikken over plug-ins. Een plug-in is een stukje extra software die meer functionaliteit biedt aan je gereedschap. Binnen deze workshop hebben we die nodig om tools met elkaar te verbinden. De truc is om software met elkaar te laten praten. Stel je voor dat Google Docs tegen InDesign zegt: “Gooi deze tekst in een mooi ontwerpje, en exporteer het als verslag.pdf ”. Dat scheelt een hoop werk!  
+
+Soms kun je iets niet helemaal oplossen met een plug-in. Sommige gereedschappen willen niet met elkaar praten. Gelukkig zijn er applicaties die als een tolk kunnen werken.
+
+Een voorbeeld van zo’n tolk zijn de appliaties Zapier en IFTTT. Zapier en IFTTT zijn visuele interfaces die de technische APIs van diverse tools met elkaar laten praten en samenwerken. Het zijn een soort kleine robots die je op een visuele manier tussen twee tools kunt hangen, een instructie kunt geven en automatisch voor je uit kunt laten voeren. Op deze manier creeëren we een zogenoemde pipeline: we verbinden tool A (bijvoorbeeld Google Sheets) met Zapier als tussenstukje aan tool B (bijvoorbeeld Trello). Het tussenstukje, Zapier, geven we tijdens het aan elkaar koppelen een taak en stellen in hoe vaak het dit automatisch voor je uit moet voeren.
 
 ----
 
@@ -100,14 +106,16 @@ Pipelining-title: ### Pipelines
 
 Pipelining-paragraph:
 
-Stukkie uitleg over wat pipelining is
+Een serie gereedschappen en programma’s met elkaar laten praten, en automatisch data en opdrachten aan elkaar laten geven noemen we een pipeline. Dat is een methode die in de computerwetenschappen al tijden wordt gebruikt. Sterker nog, je computer of telefoon werkt zo snel door het zelfde principe. Een serie aan instructies die een systeem zelfstandig uitvoert en een uitkomst genereert. Dat klinkt ingewikkeld, maar dat valt best mee. Er zijn namelijk veel tools die je kan gebruiken om het (jezelf) makkelijker te maken.
 
 #### Pipeline voorbeelden
-Hier komt een stukje tekst waarin we onderstaande afbeelding introduceren.
+Een paar voorbeelden om te laten zien wat we bedoelen:
 
 (image: image_pipeline_example.png)
 
-We bespreken in dit stukje tekst kort de diverse pipelines die in bovenstaande afbeelding staan. Dit doen we door uit te leggen hoe de pipelines opgebouwd zijn, waarom we dit zouden gebruiken, wanneer dit handig is en hoe het precies werkt. We geven een specifiek voorbeeld van gebruik zodat lezers dit begrijpen.
+Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden. In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
+Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.
 
 ----
 
