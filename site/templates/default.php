@@ -27,7 +27,7 @@
                 </div>
                 <div class="row">
                   <div class="col-12 center">
-                    <a id="startButton" class="btn btn-xl btn-primary" href="#startDiv" role="button">Let's go! <i class="fa fa-rocket"></i></a>
+                    <a id="startButton" class="btn btn-xl btn-info" href="#startDiv" role="button">Let's go! <i class="fa fa-rocket"></i></a>
                   </div>
                 </div>
             </div>
@@ -94,7 +94,8 @@
                           <?= $page->koppelen_title()->kirbytext() ?>
                           <?= $page->koppelen_paragraph()->kirbytext() ?>
                           <div class="col-12 center">
-                            <a id="startButton" class="btn btn-primary" href="#pipeline" role="button">Pipelines <i class="fa fa-arrow-down"></i></a>
+                            <a id="startButton" class="btn btn-xl btn-primary" href="#pipeline" role="button">Pipelines <i class="fa fa-arrow-down"></i></a>
+                            <br><br>
                           </div>
                         </div>
                       </div>
@@ -122,6 +123,9 @@
                         <a id="Skip button" class="btn btn-info" href="#opdracht" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
                       </div>
                     </div>
+                  </div>
+                  <div class="col-12 tekst-small">
+                    <?= $page->pipelining_uitleg()->kirbytext() ?>
                   </div>
               </div>
 
@@ -186,7 +190,7 @@
         <section class="new_section" id="toepassing">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 tekst-small">
                       <h3><?= $page->toepassing_title()->kirbytext() ?></h3>
                       <p><?= $page->toepassing_paragraph()->kirbytext() ?></p>
                     </div>

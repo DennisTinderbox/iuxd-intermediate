@@ -65,6 +65,10 @@ fields:
     label: Pipelining paragraph
     type: textarea
     size: large
+  pipelining_uitleg:
+    label: Pipelining paragraph
+    type: textarea
+    size: large
   pipelining_tldr:
     label: pipelining TL;DR
     type: textarea
