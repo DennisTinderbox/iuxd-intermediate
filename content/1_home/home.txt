@@ -44,7 +44,14 @@ Het klinkt natuurlijk een beetje gek dat je aan het begin van je werk extra tijd
 
 ### Wat haal ik dan uit deze tijdsinvestering?
 
-In dit stukje introduceren we de opdracht van de ANWB met als quote een copy van de ontwerpopgave. Als jij die designed en bouwt deel ik van t weekend nog wel ff de correcte content.
+De ANWB stelde project team diffərənt de volgende vraag:
+
+##### Onderzoek en ontwikkel wat beweging (motion) kan toevoegen aan onze digitale beleving. Verken de mogelijkheden van toegepaste beweging in design, onderbouw de mogelijkheden en werk een uitbreiding van ons design system uit.
+###### ANWB
+
+Een onderdeel van hieraan werken is het maken van veel diverse prototypes om erachter te komen wat de juiste oplossing en uitwerking van deze ontwerpvraag gaat zijn. De ontwerpkeuzen die we maken tijdens de exploration-fase binnen het prototypen moeten goed vastgelegd worden. Dit zouden we elke keer opnieuw, na het prototypen van een bepaalde feature, kunnen doen. Ons team heeft ervoor gekozen om tijd te investeren in een goede voorbereiding van het onderbouwen hiervan. Hierdoor is tussentijds keuzen goed onderbouwen ontzettend simpel geworden, besparen we hier veel tijd mee en kunnen we deze teruggewonnen tijd investeren in itereren op onze prototypes.
+
+@dennis insert screenshot slide 12.
 
 ----
 
@@ -54,25 +61,21 @@ Kiezen-title: ### Kies het juiste gereedschap voor de klus
 
 Kiezen-paragraph:
 
-We schetsen in dit stukje kort het verhaal over het aantal bomen kappen en welke tool je hiervoor gebruikt: baby-bijl, papa-bijl of #motherfockingkettingzaag. Dit doen we natuurlijk met een of meerdere images. Misschien moet dit wel een image zijn in een grid ofzo? Geen idee nog tbh. Laten we de killerclown er maar uithouden van de keer.
+Het kiezen van een tool die het beste past bij je taak is belangrijk. Het kan je namelijk ontzettend veel tijd schelen.
 
-(image: image_placeholder.png)
+##### The correct tool is making you exponentially more productive.
+###### Alex King
 
-Hier hebben we het natuurlijk ook kort over Stephen Covey en het concept van "Sharpen the Saw". Mogelijk ook met een lekker plaatje?
+Stel je hebt een boom in je achtertuin die je weg wilt hebben. Je kan even een uurtje buffelen met een bijl, en dat is prima als het maar één boom is. Zijn het meerdere bomen is het handiger om eerst naar de bouwmarkt te rijden voor een kettingzaag. De tijd en effort die je daar mee investeert krijg je razendsnel terug omdat een kettingzaag een stuk effectiever is. Dat kan je drie kwartier per boom schelen.
+Digitaal en met design werkt dat net zo. Weeg dus af wat een taak per keer kost, en of je het kan versnellen door een figuurlijke kettingzaag te halen. Die kleine investering verdient zich snel terug.
 
-(image: image_placeholder.png)
+Stephen Covey vertelt een soortgelijk verhaal in zijn boek “The Seven Habits of Highly Effective People”. Hij noemt het principe ‘Sharpen the saw’.
 
-We eindigen kort met een epic quote van Alex King.
-
-> The correct tool is making you exponentially more productive. ~ Alex King
-
-> Doe even heel veel prototypes maken en goed onderbouwen om erachter te komen wat de beste oplossing is.  ~ ANWB TUUTUUT
-
-Hieronder tonen en vertellen we ook nog kort de inhoud van slide 12, 13 en 14?
+@dennis insert plaatje van sharpen the saw.
 
 ----
 
-Toolkit-title: #### Hou een gereedschapskist bij
+Toolkit-title: ### Hou een gereedschapskist bij
 
 ----
 
@@ -80,9 +83,7 @@ Toolkit-paragraph:
 
 Net als in de fysieke wereld zijn er digitaal ontelbaar veel gereedschappen die je kan gebruiken. Vaak zijn dat web-applicaties zoals Google docs, Trello of Basecamp. Soms is het software die je eerst moet installeren zoals Sketch. Net als bij een timmerman is jouw toolkit van groot belang voor je werk. Hou dus goed bij welke tools je allemaal kent en waar je ze voor kan gebruiken. We hebben hier alvast een begin gemaakt.
 
-(image: image_toolkit.png)
-
-We bespreken in dit stukje tekst kort welke tools je allemaal kunt gebruiken om je werk te automatiseren. We leggen kort uit waarom dit voornamelijk makkelijk is met web-applicaties en vertellen kort over de kracht van Zapier, IFTTT en wat je hier dan allemaal mee zou kunnen doen.
+@dennis insert plaatje van toolkit.
 
 ----
 
@@ -92,11 +93,12 @@ Koppelen-title: ### Tools aan elkaar koppelen: Hoe pak ik dat aan?
 
 Koppelen-paragraph:
 
-Veel van de tools die je gebruikt beschikken over plug-ins. Een plug-in is een stukje extra software die meer functionaliteit biedt aan je gereedschap. Binnen deze workshop hebben we die nodig om tools met elkaar te verbinden. De truc is om software met elkaar te laten praten. Stel je voor dat Google Docs tegen InDesign zegt: “Gooi deze tekst in een mooi ontwerpje, en exporteer het als verslag.pdf ”. Dat scheelt een hoop werk!  
-
+Veel van de tools die je gebruikt beschikken over plug-ins. Een plug-in is een stukje extra software die meer functionaliteit biedt aan je gereedschap. Binnen deze workshop hebben we die nodig om tools met elkaar te verbinden. De truc is om software met elkaar te laten praten. Stel je voor dat Google Docs tegen InDesign zegt: “Gooi deze tekst in een mooi ontwerpje, en exporteer het als verslag.pdf ”. Dat scheelt een hoop werk!
 Soms kun je iets niet helemaal oplossen met een plug-in. Sommige gereedschappen willen niet met elkaar praten. Gelukkig zijn er applicaties die als een tolk kunnen werken.
-
 Een voorbeeld van zo’n tolk zijn de appliaties Zapier en IFTTT. Zapier en IFTTT zijn visuele interfaces die de technische APIs van diverse tools met elkaar laten praten en samenwerken. Het zijn een soort kleine robots die je op een visuele manier tussen twee tools kunt hangen, een instructie kunt geven en automatisch voor je uit kunt laten voeren. Op deze manier creeëren we een zogenoemde pipeline: we verbinden tool A (bijvoorbeeld Google Sheets) met Zapier als tussenstukje aan tool B (bijvoorbeeld Trello). Het tussenstukje, Zapier, geven we tijdens het aan elkaar koppelen een taak en stellen in hoe vaak het dit automatisch voor je uit moet voeren.
+
+
+@dennis insert illustratie van ptatende programma’s (V2 optie) .
 
 ----
 
@@ -108,10 +110,14 @@ Pipelining-paragraph:
 
 Een serie gereedschappen en programma’s met elkaar laten praten, en automatisch data en opdrachten aan elkaar laten geven noemen we een pipeline. Dat is een methode die in de computerwetenschappen al tijden wordt gebruikt. Sterker nog, je computer of telefoon werkt zo snel door het zelfde principe. Een serie aan instructies die een systeem zelfstandig uitvoert en een uitkomst genereert. Dat klinkt ingewikkeld, maar dat valt best mee. Er zijn namelijk veel tools die je kan gebruiken om het (jezelf) makkelijker te maken.
 
-#### Pipeline voorbeelden
+##### Let the robots do the work! 🤖
+
+@dennis insert illustratie van Mariobro’s pipeline (V2 optie)
+
+### Pipeline voorbeelden
 Een paar voorbeelden om te laten zien wat we bedoelen:
 
-(image: image_pipeline_example.png)
+@dennis insert plaatje van de voorbeelden
 
 Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden. In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
 Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
@@ -137,14 +143,35 @@ Opdracht-title: ## Opdracht: Maak je eigen pipeline
 
 Opdracht-paragraph:
 
-Hier leggen we de verschillende stappen van de opdracht uit en vragen we mensen om de opdracht uit te voeren. Daarna laten we natuurlijk ook een voorbeelduitwerking zien, natuurlijk met een kort videotje oid.
+Stel, je wil voor een drogist webshop een prototype maken waarbij je de content snel kan aanpassen naar verschillende type gebruikers. De een heeft meer affiniteit met make-up en de ander eerder met scheerspullen.
 
-We beginnen bijvoorbeeld met het kort introduceren van de product-website van Drogisterij.net en laten zien in welke context we gaan werken.
+Elke keer je content handmatig aanpassen kost enorm veel tijd. Dit kan sneller met een pipeline.
 
-(image: image_placeholder.png)
+We beginnen met het installeren van een plugin voor Figma: Google Sheets Sync.
+Deze plugin laat je data uit tabellen van Google inladen. Je kan hem downloaden via de link hieronder.
+
+####Google Sheets Sync plugin voor Figma:
+http://tiny.cc/figmaplugin
 
 
-Uiteindelijk leggen we nog een heleboel shit uit en uiteindelijk eindigen we uit met een voorbeeld-uitwerking video van hoe deze opdracht uitgevoerd zou kunnen worden.
+We hebben alvast een Google Sheets tabel aangemaakt. Die vind je op onderstaande link.
+
+####Google Sheet:
+https://bit.ly/2XiFMVo
+
+De kolomheaders corresponderen straks met laagnamen in Figma. Zet alvast de juiste namen boven de kolommen.
+
+Open het Figma document via de link hieronder.
+
+####Figma document:
+https://bit.ly/2qZRsjI
+
+Geef de tekstlagen in het Figma document dezelfde naam als de kolomheaders in de Google Sheets. Maar met een hekje ervoor.  Bijvoorbeeld #productnaam om overeen te komen met de kolom die productnaam heet.
+
+Koppel de Sheet met het Figmadocument door in het menu op plugins te klikken. Vervolgens klik je op Google Sheets Sync. Er opent een venster waar je de link van de Sheet kan droppen. Kies in de dropdown “Update entire document” en klik vervolgens op Fetch and sync.
+
+Je hebt nu dynamische content in je prototype. Proost! 🍺
+
 
 ----
 
@@ -154,10 +181,15 @@ Opdracht-stappen: #### We lopen je er stap voor stap doorheen
 
 Opdracht-stappen-list:
 
-- zo
-- kan
-- het
-- ook
+- Download de Figma plugin.
+- Open de Google Sheet.
+- Geef de kolomheaders de juiste namen.
+- Open het Figma document
+- Wijzig de laagnamen met een # die overeenkomt met de kolomheader.
+- In het pluginmenu open je de Google Sheets Sync plugin.
+- Drop de link naar de Google Sheet.
+- Kies in de dropdown “Update entire document”.
+- Druk op “Fetch and sync”.
 
 ----
 
@@ -169,7 +201,11 @@ Toepassing-title: ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
 
 ----
 
-Toepassing-paragraph: Ja en hee makker, hier komt dan natuurlijk ook nog een heel mooi lulverhaaltje. Natuurlijk wel zonder GIFje van Bram Krikke of uglyfugly PowerPoint meuk. 🍆🍑
+Toepassing-paragraph:
+
+Je hebt ondertussen zelf waarschijnlijk al bedacht welke tools je kan koppelen om je workflow op CMD makkelijker te maken. Hieronder hebben we alvast een paar voorbeelden per competentie.
+
+@dennis insert plaatje van de voorbeelden per competentie .
 
 ----
 
