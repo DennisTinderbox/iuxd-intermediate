@@ -48,11 +48,11 @@ html {
 
 ::selection {
     color: #FFFFFF;
-    background: var(--color-eenGoeieOranje);
+    background: var(--color-warning);
 }
 ::-moz-selection {
     color: #FFFFFF;
-    background: var(--color-eenGoeieOranje);
+    background: var(--color-warning);
 }
 
 body {
@@ -103,7 +103,7 @@ h4, h5, h6, p, input {
 
 h1 {
     font-size: 3rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-light);
     text-align: center;
     margin-bottom: 24px;
 }
@@ -127,6 +127,10 @@ h4 {
     color: var(--color-donkergrijs);
     text-align: left;
     margin: 16px 0px;
+}
+
+.workflowHeader h4 {
+    color: var(--color-lichtgrijs);
 }
 
 .new_section:first-child h4, .workflowHeader h4 {
@@ -192,7 +196,7 @@ button.button_download:active {
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
+  background-color: var(--color-info);
 }
 .btn-primary:hover {
   background: var(--color-primary);
@@ -423,7 +427,7 @@ figure.video {
   border: 0;
 }
 .card-header:first-child{
-    background: var(--color-info);
+    background: var(--color-donkergrijs);
     color: #fff;
     border-radius: 16px 16px 0 0;
     border: 0;
@@ -445,7 +449,7 @@ figure.video {
 
 .workflowHeader {
     min-height: 100vh;
-    background-color: var(--color-warning);
+    background-color: var(--color-donkergrijs);
     display: flex;
     align-items: center;
 }
@@ -463,7 +467,7 @@ figure.video {
 
 /* ============ Uitleg ============ */
 .uitleg_section{
-  background: var(--color-grunerTag)
+  background: var(--color-donkergrijs)
 }
 .uitleg{
       background: #ffffff;

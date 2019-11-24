@@ -14,7 +14,7 @@ Introduction-subtitle: #### Automatiseren? Dat klinkt lastig, maar dat is het ei
 
 ----
 
-Introduction-paragraph: In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen).
+Introduction-paragraph: In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen). 🍺
 (image: image_placeholder.png)
 ----
 
