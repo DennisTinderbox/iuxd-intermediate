@@ -48,11 +48,11 @@ html {
 
 ::selection {
     color: #FFFFFF;
-    background: var(--color-eenGoeieOranje);
+    background: var(--color-warning);
 }
 ::-moz-selection {
     color: #FFFFFF;
-    background: var(--color-eenGoeieOranje);
+    background: var(--color-warning);
 }
 
 body {
