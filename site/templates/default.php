@@ -208,19 +208,29 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <button class="button_download">Presentatie</button>
+                        <a href="../../assets/documents/[Workflow_Presentatie]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                          <button class="button_download">Presentatie</button>
+                        </a>
                     </div>
                     <div class="col-12 col-md-4">
+                      <a href="../../assets/documents/[Workflow_Voorbeelduitwerking]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download>
                         <button class="button_download">Voorbeeld uitwerking</button>
+                      </a>
                     </div>
                     <div class="col-12 col-md-4">
+                      <a href="../../assets/documents/[Workflow_Opdracht_Template]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download>
                         <button class="button_download">Uitwerk template</button>
+                      </a>
                     </div>
                     <div class="col-12 col-md-4">
+                      <a href="../../assets/documents/[Workflow_Handout]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
                         <button class="button_download">Uitwerk handout</button>
+                      </a>
                     </div>
                     <div class="col-12 col-md-4">
+                      <a href="../../assets/documents/[Workflow_Onderbouwing_Onderzoek]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
                         <button class="button_download">Onderbouwing oid</button>
+                      </a>
                     </div>
                 </div>
                 <hr>
