@@ -553,3 +553,14 @@ figure.video {
     padding: 0 15%;
   }
 }
+
+
+
+
+.carousel-item {
+    background: purple;
+}
+.d-block {
+    background-color: green;
+}
+

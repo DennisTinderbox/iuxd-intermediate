@@ -26,9 +26,9 @@
                     </div>
                 </div>
                 <div class="row">
-                  <div class="col-12 center">
-                    <a id="startButton" class="btn btn-xl btn-info" href="#startDiv" role="button">Let's go! <i class="fa fa-rocket"></i></a>
-                  </div>
+                    <div class="col-12 center">
+                        <a id="startButton" class="btn btn-xl btn-info" href="#startDiv" role="button">Let's go! <i class="fa fa-rocket"></i></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -42,60 +42,23 @@
                         <?= $page->introduction_paragraph()->kirbytext() ?>
                     </div>
                     <div class="col-12 col-md-4 offset-md-1">
-                      <div class="card tldr">
-                        <div class="card-body">
-                          <?= $page->introduction_tldr()->kirbytext() ?>
-                          <?= $page->introduction_tldr_list()->kirbytext() ?>
-                          <a id="skipLeren" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
+                        <div class="card tldr">
+                            <div class="card-body">
+                                <?= $page->introduction_tldr()->kirbytext() ?>
+                                <?= $page->introduction_tldr_list()->kirbytext() ?>
+                                <a id="skipLeren" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
+                            </div>
                         </div>
-                      </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
         <section class="new_section uitleg_section">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-
-                      <div class="uitleg">
-                        <nav id="navbar-example2" class="navbar sticky-top">
-                          <ul class="nav nav-pills justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#een">Voorbereiding</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#twee">Het juiste gereedschap kiezen</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#drie">Je gereedschapskist</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#vier">Gereedschap koppelen</a>
-                            </li>
-                          </ul>
-                        </nav>
-                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="20" class="scrollspy">
-                          <hr id="een">
-                          <?= $page->voorbereiding_title()->kirbytext() ?>
-                          <?= $page->voorbereiding_paragraph()->kirbytext() ?>
-                          <hr id="twee">
-                          <?= $page->kiezen_title()->kirbytext() ?>
-                          <?= $page->kiezen_paragraph()->kirbytext() ?>
-                          <hr id="drie">
-                          <?= $page->toolkit_title()->kirbytext() ?>
-                          <?= $page->toolkit_paragraph()->kirbytext() ?>
-                          <hr id="vier">
-                          <?= $page->koppelen_title()->kirbytext() ?>
-                          <?= $page->koppelen_paragraph()->kirbytext() ?>
-                          <div class="col-12 center">
-                            <a id="startButton" class="btn btn-xl btn-primary" href="#pipeline" role="button">Pipelines <i class="fa fa-arrow-down"></i></a>
-                            <br><br>
-                          </div>
-                        </div>
-                      </div>
+                        
                     </div>
                 </div>
             </div>
@@ -103,66 +66,23 @@
 
         <section class="new_section" id="pipeline">
             <div class="container">
-
-              <div class="row">
-                  <div class="col-12 col-md-7">
-                      <?= $page->pipelining_title()->kirbytext() ?>
-                      <?= $page->pipelining_subtitle()->kirbytext() ?>
-                      <?= $page->pipelining_paragraph()->kirbytext() ?>
-                  </div>
-                  <div class="col-12 col-md-4 offset-md-1">
-                    <div class="card tldr">
-                      <div class="card-body">
-                        <?= $page->pipelining_tldr()->kirbytext() ?>
-                        <?= $page->pipelining_tldr_list()->kirbytext() ?>
-                        <a id="skipPipelines" class="btn btn-info" href="#opdracht" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 tekst-small">
-                    <?= $page->pipelining_uitleg_title()->kirbytext() ?>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img class="d-block w-100" src="..." alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    </div>
-                  </div>
-                  <style>
-                      .carousel-item {
-                          background: purple;
-                      }
-                      .d-block {
-                          background-color: green;
-                      }
-                  </style>
-              </div>
-
                 <div class="row">
-                    <div class="col-12">
-                      <h3></h3>
-                      <p></p>
-                        <hr>
+                    <div class="col-12 col-md-7">
+                        <?= $page->pipelining_title()->kirbytext() ?>
+                        <?= $page->pipelining_subtitle()->kirbytext() ?>
+                        <?= $page->pipelining_paragraph()->kirbytext() ?>
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-1">
+                        <div class="card tldr">
+                        <div class="card-body">
+                            <?= $page->pipelining_tldr()->kirbytext() ?>
+                            <?= $page->pipelining_tldr_list()->kirbytext() ?>
+                            <a id="skipPipelines" class="btn btn-info" href="#opdracht" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 tekst-small">
+                        <?= $page->pipelining_uitleg_title()->kirbytext() ?>
                     </div>
                 </div>
             </div>
