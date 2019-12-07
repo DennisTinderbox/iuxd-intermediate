@@ -89,6 +89,22 @@ fields:
     label: pipelining carousel 1 img
     type: textarea
     size: small
+  pipelining_carousel_2:
+    label: pipelining carousel 2
+    type: textarea
+    size: small
+  pipelining_carousel_2_img:
+    label: pipelining carousel 2 img
+    type: textarea
+    size: small
+  pipelining_carousel_3:
+    label: pipelining carousel 3
+    type: textarea
+    size: small
+  pipelining_carousel_3_img:
+    label: pipelining carousel 3 img
+    type: textarea
+    size: small
   opdracht_title:
     label: Opdracht title
     type: textarea

@@ -111,19 +111,19 @@
                                 </div>
                                 <div class="carousel-item card">
                                     <div>
-                                        <h3>Een opgemaakt rapport met echte data</h3>
+                                        <h3>Data uit onderzoek in je team-takenlijst</h3>
                                         <div class="carousel-content">
-                                            <?= $page->pipelining_carousel_1()->kirbytext() ?>
-                                            <?= $page->pipelining_carousel_1_img()->kirbytext() ?>
+                                            <?= $page->pipelining_carousel_2()->kirbytext() ?>
+                                            <?= $page->pipelining_carousel_2_img()->kirbytext() ?>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item card">
                                     <div>
-                                        <h3>Een opgemaakt rapport met echte data</h3>
+                                        <h3>Automatisch posten van berichten</h3>
                                         <div class="carousel-content">
-                                            <?= $page->pipelining_carousel_1()->kirbytext() ?>
-                                            <?= $page->pipelining_carousel_1_img()->kirbytext() ?>
+                                            <?= $page->pipelining_carousel_3()->kirbytext() ?>
+                                            <?= $page->pipelining_carousel_3_img()->kirbytext() ?>
                                         </div>
                                     </div>
                                 </div>

@@ -145,6 +145,22 @@ Pipelining-carousel-1-img: (image: pipeline01.png)
 
 ----
 
+Pipelining-carousel-2: Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
+
+----
+
+Pipelining-carousel-2-img: (image: pipeline02.png)
+
+----
+
+Pipelining-carousel-3: Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.
+
+----
+
+Pipelining-carousel-3-img: (image: pipeline03.png)
+
+----
+
 Opdracht-title: ## Opdracht: Maak je eigen pipeline
 
 ----
