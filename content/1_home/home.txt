@@ -137,6 +137,14 @@ Pipelining-tldr-list:
 
 ----
 
+Pipelining-carousel-1: Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden. In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+
+----
+
+Pipelining-carousel-1-img: (image: pipeline01.png)
+
+----
+
 Opdracht-title: ## Opdracht: Maak je eigen pipeline
 
 ----

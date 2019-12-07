@@ -556,11 +556,38 @@ figure.video {
 
 
 
-
-.carousel-item {
-    background: purple;
-}
-.d-block {
-    background-color: green;
+.carousel-controls {
+    display: flex;
+    justify-content: flex-end;
 }
 
+.carousel-content p {
+    padding-right: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-green);
+    border-radius: 100px;
+    position: unset;
+    margin-bottom: 32px;
+}
+
+.carousel-control-prev {
+    margin-right: 16px;
+}
+
+.carousel-content {
+    width: 100%;
+    display: flex;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../icons/carousel-arrow-right.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../icons/carousel-arrow-left.svg);
+}
