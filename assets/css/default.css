@@ -7,7 +7,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     font-size: 100%;
     font-weight: normal;
-    /* font-family: 'Inter-Regular', sans-serif; */
     font-family: 'ModernEra-Regular', sans-serif;
     text-transform: none;
     text-decoration: none;
@@ -26,7 +25,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     --color-success: #55d18f;
     --color-danger: #E74E1A;
     --color-warning: #ffd968;
-    --color-info: #709fff;
+    --color-green: #709fff;
     --color-link: #5f8ff1;
     --color-dark: #383751;
     --color-light: #FAFAFA;
@@ -37,6 +36,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     --color-eenGoeieOranje: #E74E1A;
     --color-grunerTag: #8DEEBA;
 
+    --color-blue900: #273555;
+    --color-blue700: #808BA1;
+    --color-green: #00D5CF;
+    --color-gray300: #FBF8F6;
+    --color-borderLine: #F5F2F0;
+    --color-white: #FFFFFF;
+
+
 
     --transition: all .24s ease-in 0s;
     --moz-transition: all .24s ease-in 0s;
@@ -46,11 +53,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 ::selection {
     color: #FFFFFF;
-    background: var(--color-warning);
+    background: var(--color-green);
 }
 ::-moz-selection {
     color: #FFFFFF;
-    background: var(--color-warning);
+    background: var(--color-green);
 }
 
 body {
@@ -75,24 +82,6 @@ button:focus,*:focus,.btn.focus,.btn:focus{outline:0;}
 
 
 /* ============FONTS============ */
-@font-face {font-family: 'Inter-Bold';
-    /* src: url('../fonts/Inter-Bold.otf') format('opentype'); */
-    src: url('../fonts/Inter-Bold.eot') format('embedded-opentype');
-    src: url('../fonts/Inter-Bold.ttf') format('truetype');
-    src: url('../fonts/Inter-Bold.woff') format('woff');
-    src: url('../fonts/Inter-Bold.woff2') format('woff2');
-}
-
-@font-face {font-family: 'Inter-Regular';
-    /* src: url('../fonts/Inter-Regular.otf') format('opentype'); */
-    src: url('../fonts/Inter-Regular.eot') format('embedded-opentype');
-    src: url('../fonts/Inter-Regular.ttf') format('truetype');
-    src: url('../fonts/Inter-Regular.woff') format('woff');
-    src: url('../fonts/Inter-Regular.woff2') format('woff2');
-}
-
-
-
 @font-face {font-family: 'ModernEra-Bold';
     /* src: url('../assets/fonts/Newzald-Bold.otf') format('opentype'); */
     src: url('../assets/fonts/ModernEra-Bold.eot') format('embedded-opentype');
@@ -117,60 +106,62 @@ button:focus,*:focus,.btn.focus,.btn:focus{outline:0;}
     src: url('../assets/fonts/ModernEra-Regular.woff2') format('woff2');
 }
 
-
-
-
 h1, h2, h3, button {
-    /* font-family: 'Inter-Bold'; */
     font-family: 'ModernEra-Bold', sans-serif;
 }
 
 h4, h5, h6, p, input {
-    /* font-family: 'Inter-Regular'; */
     font-family: 'ModernEra-Regular', sans-serif;
+}
+
+.card h4 {
+    font-family: 'ModernEra-Bold', sans-serif;
 }
 
 h1 {
     font-size: 3rem;
-    color: var(--color-light);
+    color: var(--color-white);
     text-align: center;
     margin-bottom: 24px;
 }
 
 h2 {
     font-size: 2rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-blue900);
     text-align: left;
     margin-bottom: 16px;
 }
 
 h3 {
     font-size: 2rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-blue900);
     text-align: left;
     margin: 40px 0px 16px 0px;
 }
 
 h4 {
     font-size: 1.5rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-blue900);
     text-align: left;
     margin: 16px 0px;
 }
 
 h5 {
     font-size: 1.1rem;
-    color: var(--color-secondary);
+    color: var(--color-blue900);
     font-weight: 600;
 }
 
 a{
-  color: var(--color-link);
+  color: var(--color-green);
+}
 
+a:hover{
+    color: var(--color-green);
 }
 
 .workflowHeader h4 {
-    color: var(--color-lichtgrijs);
+    color: var(--color-white);
 }
 
 .new_section:first-child h4, .workflowHeader h4 {
@@ -179,7 +170,7 @@ a{
 
 p {
     font-size: 1rem;
-    color: var(--color-piecieDonkergrijs);
+    color: var(--color-blue900);
     margin-bottom: 24px;
 }
 @media only screen and (min-width: 765px){
@@ -192,7 +183,7 @@ p {
     font-size: 18px;
     font-style: italic;
     padding-left: 20px;
-    color: var(--color-primary);
+    color: var(--color-blue900);
     border-left: 3px solid;
     font-weight: 400;
 }
@@ -200,7 +191,7 @@ p {
     padding-left: 22px;
     padding-top: 5px;
     padding-bottom: 20px;
-    color: var(--color-secondary);
+    color: var(--color-blue900);
 }
 
 /* ============LINKS & BUTTONS============ */
@@ -208,7 +199,7 @@ button.button_download {
     font-size: 1.25rem;
     width: 100%;
     text-align: left;
-    background-color: var(--color-lichtgrijs);
+    background-color: var(--color-gray300);
     color: var(--color-secondary);
     border-radius: 16px;
     border: none;
@@ -245,7 +236,7 @@ button.button_download:active {
     border-radius: 30px;
     padding: .575rem 1.35rem;
     transition: 0.15s ease-in;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 600;
 }
 
@@ -254,16 +245,16 @@ button.button_download:active {
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
+  background-color: var(--color-green);
 }
 .btn-primary:hover {
-  background: var(--color-primary);
+  background: var(--color-green);
   transform: scale(1.05);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus,
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-  background: var(--color-primary);
+  background: var(--color-green);
   box-shadow: none;
   animation: buttonpress 0.2s ease-out;
 }
@@ -326,16 +317,16 @@ button.button_download:active {
   animation: buttonpress 0.2s ease-out;
 }
 .btn-info {
-  background: var(--color-info);
+  background: var(--color-green);
 }
 .btn-info:hover {
-  background: var(--color-info);
+  background: var(--color-green);
   transform: scale(1.05);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
 }
 .btn-info:not(:disabled):not(.disabled).active:focus, .btn-info:not(:disabled):not(.disabled):active:focus, .show>.btn-info.dropdown-toggle:focus,
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
-  background: var(--color-info);
+  background: var(--color-green);
   box-shadow: none;
   animation: buttonpress 0.2s ease-out;
 }
@@ -449,6 +440,12 @@ button.button_download:active {
 /* ============LAYOUTS GENERAL============ */
 .new_section {
     margin: 80px 0px;
+    padding: 88px 0px;
+}
+
+#startDiv, #pipeline {
+    background-color: var(--color-gray300);
+    padding: 88px 0px;
 }
 
 .col-12.center {
@@ -488,9 +485,10 @@ figure.video {
 }
 
 .card{
-  background: #FAFAFA;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.09);
-  border-radius: 16px;
+  background: var(--color-white);
+  border-radius: 40px;
+  border: 2px solid var(--color-borderLine) !important;
+  padding: 16px;
   border: 0;
 }
 .card-header:first-child{
@@ -529,9 +527,6 @@ figure.video {
 }
 
 /* ============ Intro ============ */
-.intro{
-  padding-top: 40px;
-}
 .tldr{
   margin-top: 27px
 }

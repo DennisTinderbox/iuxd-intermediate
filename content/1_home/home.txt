@@ -17,11 +17,11 @@ Introduction-subtitle: #### Automatiseren? Dat klinkt lastig, maar dat is het ei
 Introduction-paragraph:
 
 In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen). 🍺
-(image: pijplijn-letterlijk.png)
+(image: pijplijn-letterlijk_new.png)
 
 ----
 
-Introduction-tldr: #### In het kort
+Introduction-tldr: #### Nog korter #MAND
 
 ----
 
@@ -105,34 +105,27 @@ Een voorbeeld van zo’n tolk zijn de appliaties Zapier en IFTTT. Zapier en IFTT
 
 ----
 
-Pipelining-title: ### Pipelines
+Pipelining-title: ## Pipelines
+
+----
+
+Pipelining-subtitle: #### Gereedschappen en programma’s met elkaar laten praten, en automatisch data en opdrachten aan elkaar laten geven noemen we een pipeline.
 
 ----
 
 Pipelining-paragraph:
 
-Een serie gereedschappen en programma’s met elkaar laten praten, en automatisch data en opdrachten aan elkaar laten geven noemen we een pipeline. Dat is een methode die in de computerwetenschappen al tijden wordt gebruikt. Sterker nog, je computer of telefoon werkt zo snel door het zelfde principe. Een serie aan instructies die een systeem zelfstandig uitvoert en een uitkomst genereert. Dat klinkt ingewikkeld, maar dat valt best mee. Er zijn namelijk veel tools die je kan gebruiken om het (jezelf) makkelijker te maken.
+Dat is een methode die in de computerwetenschappen al tijden wordt gebruikt. Sterker nog, je computer of telefoon werkt zo snel door het zelfde principe. Een serie aan instructies die een systeem zelfstandig uitvoert en een uitkomst genereert. Dat klinkt ingewikkeld, maar dat valt best mee. Er zijn namelijk veel tools die je kan gebruiken om het (jezelf) makkelijker te maken.
 
 ##### Let the robots do the work! 🤖
 
 ----
 
-pipelining-uitleg:
-
-### Pipeline voorbeelden
-
-(image: pipeline-voorbeelden.png)
-
-Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden.
-In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
-
-Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
-
-Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.
+Pipelining-uitleg-title: ## Voorbeelden
 
 ----
 
-Pipelining-tldr: #### In het kort
+Pipelining-tldr: #### Nog korter #MAND
 
 ----
 
@@ -219,3 +212,18 @@ Bronnen:
 
 - Franklin Covey. (z.d.). Habit 7: Sharpen the Saw. Geraadpleegd op 16 november 2019, van [https://www.franklincovey.com/the-7-habits/habit-7.html](https://www.franklincovey.com/the-7-habits/habit-7.html)
 - King, A., & Rands in Repose. (2009, 3 november). The Foamy Rules for Rabid Tools. Geraadpleegd op 16 november 2019, van [https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/](https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/)
+
+----
+
+Pipelining-uitleg:
+
+### Pipeline voorbeelden
+
+(image: pipeline-voorbeelden.png)
+
+Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden.
+In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+
+Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
+
+Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.

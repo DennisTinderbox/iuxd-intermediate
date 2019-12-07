@@ -61,12 +61,16 @@ fields:
     label: Pipelining title
     type: textarea
     size: small
+  pipelining_subtitle:
+    label: Pipelining subtitle
+    type: textarea
+    size: small
   pipelining_paragraph:
     label: Pipelining paragraph
     type: textarea
     size: large
-  pipelining_uitleg:
-    label: Pipelining paragraph
+  pipelining_uitleg_title:
+    label: Pipelining uitleg titel
     type: textarea
     size: large
   pipelining_tldr:

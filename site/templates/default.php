@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-12 col-md-8 offset-md-2">
                         <h1><?= $page->title() ?></h1>
-                        <h4><?= $page->description()->kirbytext() ?></h4>
+                        <?= $page->description()->kirbytext() ?>
                     </div>
                 </div>
                 <div class="row">
@@ -37,15 +37,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-7">
-                        <h2><?= $page->introduction_title()->kirbytext() ?></h2>
-                        <h4><?= $page->introduction_subtitle()->kirbytext() ?></h4>
-                        <p><?= $page->introduction_paragraph()->kirbytext() ?></p>
+                        <?= $page->introduction_title()->kirbytext() ?>
+                        <?= $page->introduction_subtitle()->kirbytext() ?>
+                        <?= $page->introduction_paragraph()->kirbytext() ?>
                     </div>
                     <div class="col-12 col-md-4 offset-md-1">
                       <div class="card tldr">
-                        <div class="card-header">
-                          TL;DR
-                        </div>
                         <div class="card-body">
                           <?= $page->introduction_tldr()->kirbytext() ?>
                           <?= $page->introduction_tldr_list()->kirbytext() ?>
@@ -109,14 +106,12 @@
 
               <div class="row">
                   <div class="col-12 col-md-7">
-                      <h2><?= $page->pipelining_title()->kirbytext() ?></h2>
-                      <p><?= $page->pipelining_paragraph()->kirbytext() ?></p>
+                      <?= $page->pipelining_title()->kirbytext() ?>
+                      <?= $page->pipelining_subtitle()->kirbytext() ?>
+                      <?= $page->pipelining_paragraph()->kirbytext() ?>
                   </div>
                   <div class="col-12 col-md-4 offset-md-1">
                     <div class="card tldr">
-                      <div class="card-header">
-                        TL;DR
-                      </div>
                       <div class="card-body">
                         <?= $page->pipelining_tldr()->kirbytext() ?>
                         <?= $page->pipelining_tldr_list()->kirbytext() ?>
@@ -125,8 +120,42 @@
                     </div>
                   </div>
                   <div class="col-12 tekst-small">
-                    <?= $page->pipelining_uitleg()->kirbytext() ?>
+                    <?= $page->pipelining_uitleg_title()->kirbytext() ?>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img class="d-block w-100" src="..." alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="..." alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="..." alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
                   </div>
+                  <style>
+                      .carousel-item {
+                          background: purple;
+                      }
+                      .d-block {
+                          background-color: green;
+                      }
+                  </style>
               </div>
 
                 <div class="row">
