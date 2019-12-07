@@ -7,7 +7,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     font-size: 100%;
     font-weight: normal;
-    font-family: Inter-Regular, sans-serif;
+    /* font-family: 'Inter-Regular', sans-serif; */
+    font-family: 'ModernEra-Regular', sans-serif;
     text-transform: none;
     text-decoration: none;
     vertical-align: baseline;
@@ -90,12 +91,43 @@ button:focus,*:focus,.btn.focus,.btn:focus{outline:0;}
     src: url('../fonts/Inter-Regular.woff2') format('woff2');
 }
 
+
+
+@font-face {font-family: 'ModernEra-Bold';
+    /* src: url('../assets/fonts/Newzald-Bold.otf') format('opentype'); */
+    src: url('../assets/fonts/ModernEra-Bold.eot') format('embedded-opentype');
+    src: url('../assets/fonts/ModernEra-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/ModernEra-Bold.woff') format('woff');
+    src: url('../assets/fonts/ModernEra-Bold.woff2') format('woff2');
+}
+
+@font-face {font-family: 'ModernEra-Medium';
+    /* src: url('../assets/fonts/Newzald-Regular.otf') format('opentype'); */
+    src: url('../assets/fonts/ModernEra-Medium.eot') format('embedded-opentype');
+    src: url('../assets/fonts/ModernEra-Medium.ttf') format('truetype');
+    src: url('../assets/fonts/ModernEra-Medium.woff') format('woff');
+    src: url('../assets/fonts/ModernEra-Medium.woff2') format('woff2');
+}
+
+@font-face {font-family: 'ModernEra-Regular';
+    /* src: url('../assets/fonts/Newzald-Regular.otf') format('opentype'); */
+    src: url('../assets/fonts/ModernEra-Regular.eot') format('embedded-opentype');
+    src: url('../assets/fonts/ModernEra-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/ModernEra-Regular.woff') format('woff');
+    src: url('../assets/fonts/ModernEra-Regular.woff2') format('woff2');
+}
+
+
+
+
 h1, h2, h3, button {
-    font-family: 'Inter-Bold';
+    /* font-family: 'Inter-Bold'; */
+    font-family: 'ModernEra-Bold', sans-serif;
 }
 
 h4, h5, h6, p, input {
-    font-family: 'Inter-Regular';
+    /* font-family: 'Inter-Regular'; */
+    font-family: 'ModernEra-Regular', sans-serif;
 }
 
 h1 {
