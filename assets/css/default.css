@@ -591,3 +591,11 @@ figure.video {
 .carousel-control-prev-icon {
     background-image: url(../icons/carousel-arrow-left.svg);
 }
+
+#pipeline .tekst-small {
+    margin-top: 80px;
+}
+
+#pipeline .carousel {
+    margin-top: -58px;
+}
