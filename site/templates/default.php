@@ -217,11 +217,11 @@
             </div>
         </section>
 
-        <section class="new_section">
+        <section class="new_section" id="download">
             <div class="container">
                 <div class="row">
-                <div class="col-12 col-md-8">
-                        <h3>Download workshop bestanden</h3>
+                <div class="col-12">
+                        <h3>Download hier de workshop bestanden!</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -251,7 +251,6 @@
                       </a>
                     </div>
                 </div>
-                <hr>
             </div>
         </section>
 

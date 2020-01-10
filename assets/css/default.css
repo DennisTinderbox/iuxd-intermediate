@@ -139,6 +139,12 @@ h3 {
     margin: 40px 0px 16px 0px;
 }
 
+#download h3 {
+    color: var(--color-white);
+    text-align: center;
+    margin-bottom: 56px;
+}
+
 h4 {
     font-size: 1.5rem;
     color: var(--color-blue900);
@@ -204,11 +210,11 @@ button.button_download {
     width: 100%;
     text-align: left;
     background-color: var(--color-gray300);
-    color: var(--color-secondary);
-    border-radius: 16px;
+    color: var(--color-blue900);
+    border-radius: 100px;
     border: none;
     margin-bottom: 20px;
-    padding: 24px;
+    padding: 16px;
     display: flex;
     align-items: center;
     transition: var(--transition);
@@ -443,7 +449,7 @@ button.button_download:active {
 }
 /* ============LAYOUTS GENERAL============ */
 .new_section {
-    margin: 80px 0px;
+    /* margin: 80px 0px; */
     padding: 88px 0px;
 }
 
@@ -610,4 +616,15 @@ figure.video {
 
 #zapier_row {
     padding-bottom: 0;
+}
+
+.new_section#download {
+    margin: 0;
+}
+
+#download {
+    background-image: url(../documents/background_download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
