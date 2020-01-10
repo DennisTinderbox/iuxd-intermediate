@@ -145,8 +145,16 @@ fields:
     label: Toepassing title
     type: textarea
     size: small
+  toepassing_subtitle:
+    label: Toepassing subtitle
+    type: textarea
+    size: small
   toepassing_paragraph:
     label: Toepassing paragraph
+    type: textarea
+    size: large
+  toepassing_img:
+    label: Toepassing img
     type: textarea
     size: large
   bronnen:

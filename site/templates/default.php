@@ -203,11 +203,16 @@
         <section class="new_section" id="toepassing">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 tekst-small">
-                      <h3><?= $page->toepassing_title()->kirbytext() ?></h3>
-                      <p><?= $page->toepassing_paragraph()->kirbytext() ?></p>
+                    <div class="col-12 col-md-7">
+                        <?= $page->toepassing_title()->kirbytext() ?>
+                        <?= $page->toepassing_subtitle()->kirbytext() ?>
+                        <?= $page->toepassing_paragraph()->kirbytext() ?>
                     </div>
-                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <?= $page->toepassing_img()->kirbytext() ?>
+                    </div>
                 </div>
             </div>
         </section>

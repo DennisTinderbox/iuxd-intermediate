@@ -263,15 +263,19 @@ Tutorial: (video: https://youtu.be/7UR5Njw4D-o)
 
 ----
 
-Toepassing-title: ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
+Toepassing-title: ## Toepassing
 
 ----
 
-Toepassing-paragraph:
+Toepassing-subtitle: #### Hoe pas ik dit zelf toe in het CMD proces?
 
-Je hebt ondertussen zelf waarschijnlijk al bedacht welke tools je kan koppelen om je workflow op CMD makkelijker te maken. Hieronder hebben we alvast een paar voorbeelden per competentie.
+----
 
-(image: competenties.png)
+Toepassing-paragraph: Je hebt ondertussen zelf waarschijnlijk al bedacht welke tools je kan koppelen om je workflow op CMD makkelijker te maken. Hieronder hebben we alvast een paar voorbeelden per competentie.
+
+----
+
+Toepassing-img: (image: toepassing-competenties.png)
 
 ----
 

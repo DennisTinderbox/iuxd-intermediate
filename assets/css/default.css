@@ -447,7 +447,7 @@ button.button_download:active {
     padding: 88px 0px;
 }
 
-#startDiv, #pipeline, #zapier_row {
+#startDiv, #pipeline, #zapier_row, #toepassing {
     background-color: var(--color-gray300);
     padding: 88px 0px;
 }
