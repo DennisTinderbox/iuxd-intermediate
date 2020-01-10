@@ -84,11 +84,6 @@
                     <div class="col-12 tekst-small">
                         <?= $page->pipelining_uitleg_title()->kirbytext() ?>
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-controls">
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -146,7 +141,26 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <?= $page->robot_img()->kirbytext() ?>
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-controls">
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item active">
+                                    <?= $page->robot_img_1()->kirbytext() ?>
+                                </div>
+                                <div class="carousel-item">
+                                    <?= $page->robot_img_2()->kirbytext() ?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

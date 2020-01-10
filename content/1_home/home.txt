@@ -200,7 +200,11 @@ De nieuwe plug-ins waar Figma tegenwoordig mee uitgebreid is doen eigenlijk een 
 
 ----
 
-Robot-img: (image: zapier-ifttt.png)
+Robot-img-1: (image: zapier.png)
+
+----
+
+Robot-img-2: (image: ifttt.png)
 
 ----
 
@@ -283,6 +287,10 @@ Bronnen:
 
 - Franklin Covey. (z.d.). Habit 7: Sharpen the Saw. Geraadpleegd op 16 november 2019, van [https://www.franklincovey.com/the-7-habits/habit-7.html](https://www.franklincovey.com/the-7-habits/habit-7.html)
 - King, A., & Rands in Repose. (2009, 3 november). The Foamy Rules for Rabid Tools. Geraadpleegd op 16 november 2019, van [https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/](https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/)
+
+----
+
+Robot-img: (image: zapier-ifttt.png)
 
 ----
 
