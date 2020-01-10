@@ -46,7 +46,7 @@
                             <div class="card-body">
                                 <?= $page->introduction_tldr()->kirbytext() ?>
                                 <?= $page->introduction_tldr_list()->kirbytext() ?>
-                                <a id="skipLeren" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
+                                <a id="skipLeren" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Skip intro</a>
                             </div>
                         </div>
                     </div>
@@ -255,15 +255,11 @@
             </div>
         </section>
 
-        <section class="new_section">
+        <section id="bronnen">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-7">
                         <h3>Bronnen</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-8">
                         <p><?= $page->bronnen()->kirbytext() ?></p>
                     </div>
                 </div>
