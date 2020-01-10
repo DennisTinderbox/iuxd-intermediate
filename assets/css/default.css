@@ -168,11 +168,15 @@ a:hover{
     text-align: center;
 }
 
-p {
-    font-size: 1rem;
+p, li {
+    font-size: 1.1rem;
     color: var(--color-blue900);
+}
+
+p {
     margin-bottom: 24px;
 }
+
 @media only screen and (min-width: 765px){
   .tekst-small p{
     padding-right: 50vw;
@@ -443,7 +447,7 @@ button.button_download:active {
     padding: 88px 0px;
 }
 
-#startDiv, #pipeline {
+#startDiv, #pipeline, #zapier_row {
     background-color: var(--color-gray300);
     padding: 88px 0px;
 }
@@ -561,10 +565,6 @@ figure.video {
     justify-content: flex-end;
 }
 
-.carousel-content p {
-    padding-right: 0;
-}
-
 .carousel-control-prev, .carousel-control-next {
     width: 35px;
     height: 35px;
@@ -579,9 +579,17 @@ figure.video {
     margin-right: 16px;
 }
 
+.carousel-item {
+    min-height: 620px; /*Ugly fix but it works for now: height of the carousel-items aren't different anymore*/
+}
+
 .carousel-content {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
+}
+
+.carousel-content p {
+    padding-right: 0;
 }
 
 .carousel-control-next-icon {
@@ -598,4 +606,8 @@ figure.video {
 
 #pipeline .carousel {
     margin-top: -58px;
+}
+
+#zapier_row {
+    padding-bottom: 0;
 }

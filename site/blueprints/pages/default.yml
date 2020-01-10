@@ -105,6 +105,22 @@ fields:
     label: pipelining carousel 3 img
     type: textarea
     size: small
+  robot_title:
+    label: robot title
+    type: textarea
+    size: small
+  robot_subtitle:
+    label: robot subtitle
+    type: textarea
+    size: small
+  robot_paragraph:
+    label: robot paragraph
+    type: textarea
+    size: small
+  robot_img:
+    label: robot img
+    type: textarea
+    size: small
   opdracht_title:
     label: Opdracht title
     type: textarea

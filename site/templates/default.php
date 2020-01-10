@@ -101,34 +101,52 @@
                                     </a>
                                 </div>
                                 <div class="carousel-item card active">
-                                    <div>
-                                        <h3>Een opgemaakt rapport met echte data</h3>
-                                        <div class="carousel-content">
+                                    <div class="carousel-content">
+                                        <div class="col-12 col-md-7">
+                                            <h3>Een opgemaakt rapport met echte data</h3>
                                             <?= $page->pipelining_carousel_1()->kirbytext() ?>
+                                        </div>
+                                        <div class="col-12 offset-md-1 col-md-4">
                                             <?= $page->pipelining_carousel_1_img()->kirbytext() ?>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item card">
-                                    <div>
-                                        <h3>Data uit onderzoek in je team-takenlijst</h3>
-                                        <div class="carousel-content">
+                                    <div class="carousel-content">
+                                        <div class="col-12 col-md-7">
+                                            <h3>Data uit onderzoek in je team-takenlijst</h3>
                                             <?= $page->pipelining_carousel_2()->kirbytext() ?>
+                                        </div>
+                                        <div class="col-12 offset-md-1 col-md-4">
                                             <?= $page->pipelining_carousel_2_img()->kirbytext() ?>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item card">
-                                    <div>
-                                        <h3>Automatisch posten van berichten</h3>
-                                        <div class="carousel-content">
+                                    <div class="carousel-content">
+                                        <div class="col-12 col-md-7">
+                                            <h3>Automatisch documenten uploaden in Jappie z’n Basecamp</h3>
                                             <?= $page->pipelining_carousel_3()->kirbytext() ?>
+                                        </div>
+                                        <div class="col-12 offset-md-1 col-md-4">
                                             <?= $page->pipelining_carousel_3_img()->kirbytext() ?>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row" id="zapier_row">
+                    <div class="col-12 col-md-7">
+                        <?= $page->robot_title()->kirbytext() ?>
+                        <?= $page->robot_subtitle()->kirbytext() ?>
+                        <?= $page->robot_paragraph()->kirbytext() ?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <?= $page->robot_img()->kirbytext() ?>
                     </div>
                 </div>
             </div>

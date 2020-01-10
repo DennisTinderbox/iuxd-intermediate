@@ -137,27 +137,70 @@ Pipelining-tldr-list:
 
 ----
 
-Pipelining-carousel-1: Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden. In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+Pipelining-carousel-1:
+
+Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht in tabelvorm. Maar wat als je een compleet rapport of document ontwerpt? Deze stata uit Google Sheet kunnen we automatisch in een Figma bestand laden. 
+Wanneer we correcte styles in Figma gedefinieerd hebben. Wanneer de Google Sheet en het Figma bestand goed opgezet zijn krijgt de data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+
+- Google Sheets Figma plugin: 
+https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync
 
 ----
 
-Pipelining-carousel-1-img: (image: pipeline01.png)
+Pipelining-carousel-1-img: (image: pipeline-1.png)
 
 ----
 
-Pipelining-carousel-2: Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
+Pipelining-carousel-2:
+
+Wanneer je een onderzoek doet en hiervoor Google Forms gebruikt kun je automatisch de data over laten zetten naar een overzichtelijke Google Sheet. 
+Wanneer er in de Google Sheet met resultaten specifieke resultaten zijn waar je een taak van wil maken in Trello kan dit geautomatiseerd:
+- Plaats een extra kolom in de sheet waarin je aangeeft dat een specifieke row een taak moet worden in Trello 
+- Door middel van Zapier, een tooltje dat werkt als een soort visuele API, kun je jouw Google Sheet en Trello Board aan elkaar koppelen en automatisch elke regel in de sheet die jij aangegeven hebt om laten vormen tot een Trello Card.
+
+Je hebt nu nieuwe taken voor jou en je team gegenereerd aan de hand van je onderzoeksresultaten.
+
+- Zapier integraties voor Google Sheets en Trello: 
+https://zapier.com/apps/trello/integrations/google-sheets
 
 ----
 
-Pipelining-carousel-2-img: (image: pipeline02.png)
+Pipelining-carousel-2-img: (image: pipeline-2.png)
 
 ----
 
-Pipelining-carousel-3: Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.
+Pipelining-carousel-3:
+
+Werk je op zondagavond? Is Jasper z’n deadline over een uur? Schrijf je documenten in Google Docs?
+
+Met Zapier, een soort visuele API waarmee je services aan elkaar kunt knopen, kun je je Google Docs en Google Drive koppelen aan Basecamp. Documenten die je maakt kunnen automatisch geupload worden wanneer jij ze opslaat. Op deze manier hoef je niet meer handmatig je documenten te uploaden, altijd handig in die laatste minuut voor een deadline.
+
+- Zapier integraties voor Google Drive en Basecamp: 
+https://zapier.com/apps/google-drive/integrations/basecamp3
 
 ----
 
-Pipelining-carousel-3-img: (image: pipeline03.png)
+Pipelining-carousel-3-img: (image: pipeline3.png)
+
+----
+
+Robot-title: ## Zapier en If This Then That
+
+----
+
+Robot-subtitle: #### Applicaties en services aan elkaar koppelen is niet lastig wanneer je de juiste tools inzet.
+
+----
+
+Robot-paragraph:
+
+Zapier en IFTTT zijn twee simpele tooltjes die iedereen kan gebruiken. Ze gebruiken een input (bijvoorbeeld een nieuwe rij in een Google Sheet) van service X en een output die ze in service Y (bijvoorbeeld een nieuwe card in Trello) plaatsen.
+De services zijn eigenlijk een soort "tussenpersoon" die je, met een visuele drag-and-drop interface, tussen verschillende applicaties kan hangen om dingen snel te automatiseren.
+De nieuwe plug-ins waar Figma tegenwoordig mee uitgebreid is doen eigenlijk een beetje hetzelfde. Door de juiste "tussenpersonen" te gebruiken kunnen we ontzettend veel programma's aan elkaar koppelen en het lastige werk voor ons laten doen.
+
+----
+
+Robot-img: (image: zapier-ifttt.png)
 
 ----
 
