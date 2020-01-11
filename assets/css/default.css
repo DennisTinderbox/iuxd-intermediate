@@ -526,7 +526,7 @@ figure.video {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(../documents/background.jpg);
+    background-image: url(../documents/background2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -540,6 +540,10 @@ figure.video {
 .tldr{
   margin-top: 27px
 }
+
+/* ============ UNIT ============ */
+
+
 
 /* ============ Uitleg ============ */
 .uitleg_section{
