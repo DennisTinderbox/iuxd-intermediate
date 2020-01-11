@@ -84,26 +84,26 @@ button:focus,*:focus,.btn.focus,.btn:focus{outline:0;}
 /* ============FONTS============ */
 @font-face {font-family: 'ModernEra-Bold';
     /* src: url('../assets/fonts/Newzald-Bold.otf') format('opentype'); */
-    src: url('../assets/fonts/ModernEra-Bold.eot') format('embedded-opentype');
-    src: url('../assets/fonts/ModernEra-Bold.ttf') format('truetype');
-    src: url('../assets/fonts/ModernEra-Bold.woff') format('woff');
-    src: url('../assets/fonts/ModernEra-Bold.woff2') format('woff2');
+    src: url('../fonts/ModernEra-Bold.eot') format('embedded-opentype');
+    src: url('../fonts/ModernEra-Bold.ttf') format('truetype');
+    src: url('../fonts/ModernEra-Bold.woff') format('woff');
+    src: url('../fonts/ModernEra-Bold.woff2') format('woff2');
 }
 
 @font-face {font-family: 'ModernEra-Medium';
     /* src: url('../assets/fonts/Newzald-Regular.otf') format('opentype'); */
-    src: url('../assets/fonts/ModernEra-Medium.eot') format('embedded-opentype');
-    src: url('../assets/fonts/ModernEra-Medium.ttf') format('truetype');
-    src: url('../assets/fonts/ModernEra-Medium.woff') format('woff');
-    src: url('../assets/fonts/ModernEra-Medium.woff2') format('woff2');
+    src: url('../fonts/ModernEra-Medium.eot') format('embedded-opentype');
+    src: url('../fonts/ModernEra-Medium.ttf') format('truetype');
+    src: url('../fonts/ModernEra-Medium.woff') format('woff');
+    src: url('../fonts/ModernEra-Medium.woff2') format('woff2');
 }
 
 @font-face {font-family: 'ModernEra-Regular';
     /* src: url('../assets/fonts/Newzald-Regular.otf') format('opentype'); */
-    src: url('../assets/fonts/ModernEra-Regular.eot') format('embedded-opentype');
-    src: url('../assets/fonts/ModernEra-Regular.ttf') format('truetype');
-    src: url('../assets/fonts/ModernEra-Regular.woff') format('woff');
-    src: url('../assets/fonts/ModernEra-Regular.woff2') format('woff2');
+    src: url('../fonts/ModernEra-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/ModernEra-Regular.ttf') format('truetype');
+    src: url('../fonts/ModernEra-Regular.woff') format('woff');
+    src: url('../fonts/ModernEra-Regular.woff2') format('woff2');
 }
 
 h1, h2, h3, button {
@@ -545,7 +545,7 @@ figure.video {
 
 /* ============ UNIT ============ */
 .uitleg_section{
-  padding-top: 100px 0;
+  padding: 100px 0;
 }
 .unit{
   position: relative;
