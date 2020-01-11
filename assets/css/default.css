@@ -20,7 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-rendering: optimizeSpeed;
 }
 :root {
-    --color-primary: #8f8dce;
+    --color-primary: #273555;
     --color-secondary: #545377;
     --color-success: #55d18f;
     --color-danger: #E74E1A;
@@ -123,6 +123,7 @@ h1 {
     color: var(--color-white);
     text-align: center;
     margin-bottom: 24px;
+    font-weight: 600;
 }
 
 h2 {
@@ -130,6 +131,7 @@ h2 {
     color: var(--color-blue900);
     text-align: left;
     margin-bottom: 16px;
+    font-weight: 600;
 }
 
 h3 {
@@ -137,6 +139,7 @@ h3 {
     color: var(--color-blue900);
     text-align: left;
     margin: 40px 0px 16px 0px;
+    font-weight: 600;
 }
 
 #download h3 {
@@ -247,7 +250,6 @@ button.button_download:active {
     padding: .575rem 1.35rem;
     transition: 0.15s ease-in;
     color: var(--color-white);
-    font-weight: 600;
 }
 
 .btn-xl {
@@ -542,11 +544,115 @@ figure.video {
 }
 
 /* ============ UNIT ============ */
-
-
-
-/* ============ Uitleg ============ */
 .uitleg_section{
+  padding-top: 100px 0;
+}
+.unit{
+  position: relative;
+}
+.scrollspy-example {
+  position: relative;
+  height: 800px;
+  overflow: auto;
+  background: #FBF8F6;
+  border: 2px solid #F5F2F0;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 0 40px;
+}
+.scrollspy-example::-webkit-scrollbar{
+  display: none;
+}
+.scrollspy-example {
+  -ms-overflow-style: none;
+}
+.list-group-item {
+  background: #FBF8F6;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  border: 0;
+  border-radius: 8px!important;
+  padding: 18px;
+  font-weight: 600;
+}
+.list-group-item.active{
+  background-color: var(--color-blue900);
+}
+.unit h5{
+  font-size: 18px;
+  color: var(--color-blue700);
+  font-weight: 500;
+  font-style: italic;
+}
+.unit h6{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.unit figure img {
+    border-radius: 40px;
+    position: relative;
+}
+#list-item-1 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 236px;
+    width: 450px;
+    top: 214px;
+}
+#list-item-2 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 236px;
+    width: 450px;
+    top: 214px;
+}
+#list-item-3 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 340px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 66px;
+    width: 208px;
+    top: 384px;
+}
+#list-item-4 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 236px;
+    width: 450px;
+    top: 240px;
+}
+#list-item-5 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 326px;
+    width: 300px;
+    top: 214px;
+}
+.unit figure {
+    margin: -170px 0 80px 0;
+}
+/* ============ Uitleg ============ */
+/* .uitleg_section{
   background: var(--color-donkergrijs)
 }
 .uitleg{
@@ -566,7 +672,7 @@ figure.video {
   .scrollspy img {
     padding: 0 15%;
   }
-}
+} */
 
 
 

@@ -54,12 +54,51 @@
             </div>
         </section>
 
-        <section class="new_section uitleg_section">
-            <div class="container">
+        <section class="uitleg_section">
+            <div class="container unit">
                 <div class="row">
-                    <div class="col-12">
-                        
-                    </div>
+                  <div id="list-example" class="list-group col-3">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">Voorbereiding</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Tijdsinvestering</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">Juiste Gereedschap</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">Gereedschapskist</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-5">Koppelen die handel</a>
+                  </div>
+                  <div class="col-1">
+                  </div>
+                  <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example col-8">
+                    <article id="list-item-1">
+                      <?= $page->voorbereiding_title()->kirbytext() ?>
+                      <?= $page->voorbereiding_paragraph()->kirbytext() ?>
+                    </article>
+                    <article id="list-item-2">
+                      <?= $page->tijdsinvestering_title()->kirbytext() ?>
+                      <?= $page->tijdsinvestering_paragraph()->kirbytext() ?>
+                    </article>
+                    <article id="list-item-3">
+                      <div class="row">
+                        <div class="col-7">
+                          <?= $page->kiezen_title()->kirbytext() ?>
+                          <?= $page->kiezen_paragraph()->kirbytext() ?>
+                        </div>
+                        <div class="col-5">
+                          <figure>
+                            <?php if($image = $page->image('zaag.jpg')): ?>
+                              <img src="<?= $image->url() ?>" alt="">
+                            <?php endif ?>
+                          </figure>
+                        </div>
+                      </div>
+                    </article>
+                    <article id="list-item-4">
+                      <?= $page->toolkit_title()->kirbytext() ?>
+                      <?= $page->toolkit_paragraph()->kirbytext() ?>
+                    </article>
+                    <article id="list-item-5">
+                      <?= $page->koppelen_title()->kirbytext() ?>
+                      <?= $page->koppelen_paragraph()->kirbytext() ?>
+                    </article>
+                  </div>
                 </div>
             </div>
         </section>
@@ -174,31 +213,18 @@
                     </div>
                     <div class="col">
                       <div class="card tldr">
-                        <div class="card-header">
-                          Uitleg
-                        </div>
                         <div class="card-body">
                           <?= $page->opdracht_paragraph()->kirbytext() ?>
+                          <?= $page->tutorial()->kirbytext() ?>
                         </div>
                       </div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-4 offset-md-1">
                       <div class="card tldr">
-                        <div class="card-header">
-                          Stappen
-                        </div>
                         <div class="card-body">
                           <?= $page->opdracht_stappen()->kirbytext() ?>
                           <?= $page->opdracht_stappen_list()->kirbytext() ?>
                           <a id="skipOpdracht" class="btn btn-info" href="#figmastuk" role="button"><i class="fa fa-forward"></i> Naar figma</a>
-                        </div>
-                      </div>
-                      <div class="card tldr">
-                        <div class="card-header">
-                          Tutorial
-                        </div>
-                        <div class="card-body youtube">
-                          <?= $page->tutorial()->kirbytext() ?>
                         </div>
                       </div>
                     </div>

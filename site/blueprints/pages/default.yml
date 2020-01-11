@@ -33,6 +33,14 @@ fields:
     label: Voorbereiding Paragraph
     type: textarea
     size: large
+  tijdsinvestering_title:
+    label: Tijdsinvestering Title
+    type: textarea
+    size: small
+  tijdsinvestering_paragraph:
+    label: Tijdsinvestering Paragraph
+    type: textarea
+    size: large
   kiezen_title:
     label: Tool kiezen title
     type: textarea
@@ -41,6 +49,10 @@ fields:
     label: Tool kiezen Paragraph
     type: textarea
     size: large
+  kiezen_img:
+    label: Selecteer afbeelding...
+    type: files
+    multiple: false
   toolkit_title:
     label: Toolkit title
     type: textarea
