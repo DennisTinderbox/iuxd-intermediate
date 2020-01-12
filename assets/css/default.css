@@ -787,3 +787,16 @@ figure.video {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*Safari mobile specific*/
+
+@supports (-webkit-overflow-scrolling: touch) {
+   #list-item-1 figure::before{display: none}
+   #list-item-2 figure::before{display: none}
+   #list-item-3 figure::before{display: none}
+   #list-item-4 figure::before{display: none}
+   #list-item-5 figure::before{display: none}
+   a#skipLeren{font-size: 0px;}
+   a#skipPipelines{font-size: 0px;}
+   a#skipOpdracht{font-size: 0px;}
+   i.fa.fa-forward {font-size: initial;}
+}
