@@ -18,3 +18,4 @@ $("#skipOpdracht").click(function() {
         scrollTop: $("#figmastuk").offset().top
     }, 800);
 });
+

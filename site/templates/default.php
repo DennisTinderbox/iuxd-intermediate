@@ -22,13 +22,13 @@
                 <div class="row">
                     <div class="col-12 col-md-8 offset-md-2">
                         <h1><?= $page->title() ?></h1>
-                        <h4><?= $page->description()->kirbytext() ?></h4>
+                        <?= $page->description()->kirbytext() ?>
                     </div>
                 </div>
                 <div class="row">
-                  <div class="col-12 center">
-                    <a id="startButton" class="btn btn-xl btn-info" href="#startDiv" role="button">Let's go! <i class="fa fa-rocket"></i></a>
-                  </div>
+                    <div class="col-12 center">
+                        <a id="startButton" class="btn btn-xl btn-info" href="#startDiv" role="button">Let's go! <i class="fa fa-rocket"></i></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -37,103 +37,174 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-7">
-                        <h2><?= $page->introduction_title()->kirbytext() ?></h2>
-                        <h4><?= $page->introduction_subtitle()->kirbytext() ?></h4>
-                        <p><?= $page->introduction_paragraph()->kirbytext() ?></p>
+                        <?= $page->introduction_title()->kirbytext() ?>
+                        <?= $page->introduction_subtitle()->kirbytext() ?>
+                        <?= $page->introduction_paragraph()->kirbytext() ?>
                     </div>
                     <div class="col-12 col-md-4 offset-md-1">
-                      <div class="card tldr">
-                        <div class="card-header">
-                          TL;DR
+                        <div class="card tldr">
+                            <div class="card-body">
+                                <?= $page->introduction_tldr()->kirbytext() ?>
+                                <?= $page->introduction_tldr_list()->kirbytext() ?>
+                                <a id="skipLeren" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Skip intro</a>
+                            </div>
                         </div>
-                        <div class="card-body">
-                          <?= $page->introduction_tldr()->kirbytext() ?>
-                          <?= $page->introduction_tldr_list()->kirbytext() ?>
-                          <a id="skipLeren" class="btn btn-info" href="#pipeline" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
-                        </div>
-                      </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section class="new_section uitleg_section">
-            <div class="container">
+        <section class="uitleg_section">
+            <div class="container unit">
                 <div class="row">
                     <div class="col-12">
-
-                      <div class="uitleg">
-                        <nav id="navbar-example2" class="navbar sticky-top">
-                          <ul class="nav nav-pills justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#een">Voorbereiding</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#twee">Het juiste gereedschap kiezen</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#drie">Je gereedschapskist</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#vier">Gereedschap koppelen</a>
-                            </li>
-                          </ul>
-                        </nav>
-                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="20" class="scrollspy">
-                          <hr id="een">
-                          <?= $page->voorbereiding_title()->kirbytext() ?>
-                          <?= $page->voorbereiding_paragraph()->kirbytext() ?>
-                          <hr id="twee">
+                        <h2>Waarom?</h2>
+                    </div>
+                </div>
+                <div class="row">
+                  <div id="list-example" class="list-group col-3">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">Voorbereiding</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Tijdsinvestering</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">Juiste Gereedschap</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">Gereedschapskist</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-5">Koppelen die handel</a>
+                  </div>
+                  <div class="col-1">
+                  </div>
+                  <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example col-8">
+                    <article id="list-item-1">
+                      <?= $page->voorbereiding_title()->kirbytext() ?>
+                      <?= $page->voorbereiding_paragraph()->kirbytext() ?>
+                    </article>
+                    <article id="list-item-2">
+                      <?= $page->tijdsinvestering_title()->kirbytext() ?>
+                      <?= $page->tijdsinvestering_paragraph()->kirbytext() ?>
+                    </article>
+                    <article id="list-item-3">
+                      <div class="row">
+                        <div class="col-7">
                           <?= $page->kiezen_title()->kirbytext() ?>
                           <?= $page->kiezen_paragraph()->kirbytext() ?>
-                          <hr id="drie">
-                          <?= $page->toolkit_title()->kirbytext() ?>
-                          <?= $page->toolkit_paragraph()->kirbytext() ?>
-                          <hr id="vier">
-                          <?= $page->koppelen_title()->kirbytext() ?>
-                          <?= $page->koppelen_paragraph()->kirbytext() ?>
-                          <div class="col-12 center">
-                            <a id="startButton" class="btn btn-xl btn-primary" href="#pipeline" role="button">Pipelines <i class="fa fa-arrow-down"></i></a>
-                            <br><br>
-                          </div>
+                        </div>
+                        <div class="col-5">
+                          <figure>
+                            <?php if($image = $page->image('zaag.jpg')): ?>
+                              <img src="<?= $image->url() ?>" alt="">
+                            <?php endif ?>
+                          </figure>
                         </div>
                       </div>
-                    </div>
+                    </article>
+                    <article id="list-item-4">
+                      <?= $page->toolkit_title()->kirbytext() ?>
+                      <?= $page->toolkit_paragraph()->kirbytext() ?>
+                    </article>
+                    <article id="list-item-5">
+                      <?= $page->koppelen_title()->kirbytext() ?>
+                      <?= $page->koppelen_paragraph()->kirbytext() ?>
+                    </article>
+                  </div>
                 </div>
             </div>
         </section>
 
         <section class="new_section" id="pipeline">
             <div class="container">
-
-              <div class="row">
-                  <div class="col-12 col-md-7">
-                      <h2><?= $page->pipelining_title()->kirbytext() ?></h2>
-                      <p><?= $page->pipelining_paragraph()->kirbytext() ?></p>
-                  </div>
-                  <div class="col-12 col-md-4 offset-md-1">
-                    <div class="card tldr">
-                      <div class="card-header">
-                        TL;DR
-                      </div>
-                      <div class="card-body">
-                        <?= $page->pipelining_tldr()->kirbytext() ?>
-                        <?= $page->pipelining_tldr_list()->kirbytext() ?>
-                        <a id="skipPipelines" class="btn btn-info" href="#opdracht" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
-                      </div>
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <?= $page->pipelining_title()->kirbytext() ?>
+                        <?= $page->pipelining_subtitle()->kirbytext() ?>
+                        <?= $page->pipelining_paragraph()->kirbytext() ?>
                     </div>
-                  </div>
-                  <div class="col-12 tekst-small">
-                    <?= $page->pipelining_uitleg()->kirbytext() ?>
-                  </div>
-              </div>
-
+                    <div class="col-12 col-md-4 offset-md-1">
+                        <div class="card tldr">
+                        <div class="card-body">
+                            <?= $page->pipelining_tldr()->kirbytext() ?>
+                            <?= $page->pipelining_tldr_list()->kirbytext() ?>
+                            <a id="skipPipelines" class="btn btn-info" href="#opdracht" role="button"><i class="fa fa-forward"></i> Skip uitleg</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 tekst-small">
+                        <?= $page->pipelining_uitleg_title()->kirbytext() ?>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-controls">
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item card active">
+                                    <div class="carousel-content">
+                                        <div class="col-12 col-md-7">
+                                            <h3>Een opgemaakt rapport met echte data</h3>
+                                            <?= $page->pipelining_carousel_1()->kirbytext() ?>
+                                        </div>
+                                        <div class="col-12 offset-md-1 col-md-4">
+                                            <?= $page->pipelining_carousel_1_img()->kirbytext() ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item card">
+                                    <div class="carousel-content">
+                                        <div class="col-12 col-md-7">
+                                            <h3>Data uit onderzoek in je team-takenlijst</h3>
+                                            <?= $page->pipelining_carousel_2()->kirbytext() ?>
+                                        </div>
+                                        <div class="col-12 offset-md-1 col-md-4">
+                                            <?= $page->pipelining_carousel_2_img()->kirbytext() ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item card">
+                                    <div class="carousel-content">
+                                        <div class="col-12 col-md-7">
+                                            <h3>Automatisch documenten uploaden in Jappie z’n Basecamp</h3>
+                                            <?= $page->pipelining_carousel_3()->kirbytext() ?>
+                                        </div>
+                                        <div class="col-12 offset-md-1 col-md-4">
+                                            <?= $page->pipelining_carousel_3_img()->kirbytext() ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="zapier_row">
+                    <div class="col-12 col-md-7">
+                        <?= $page->robot_title()->kirbytext() ?>
+                        <?= $page->robot_subtitle()->kirbytext() ?>
+                        <?= $page->robot_paragraph()->kirbytext() ?>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12">
-                      <h3></h3>
-                      <p></p>
-                        <hr>
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-controls">
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item active">
+                                    <?= $page->robot_img_1()->kirbytext() ?>
+                                </div>
+                                <div class="carousel-item">
+                                    <?= $page->robot_img_2()->kirbytext() ?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,106 +217,96 @@
                       <h3><?= $page->opdracht_title()->kirbytext() ?></h3>
                     </div>
                     <div class="col">
-                      <div class="card tldr">
-                        <div class="card-header">
-                          Uitleg
-                        </div>
-                        <div class="card-body">
                           <?= $page->opdracht_paragraph()->kirbytext() ?>
-                        </div>
-                      </div>
+                          <?= $page->tutorial()->kirbytext() ?>
+                          <h3 class="extraspace">Probeer het zelf:</h3>
+                          <iframe style="border: none;" width="100%" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9LQEmwxWFgX235C8N883lv%2FWorkshop-Workflow-Data-Template%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                     </div>
-                    <div class="col">
-                      <div class="card tldr">
-                        <div class="card-header">
-                          Stappen
-                        </div>
+                    <div class="col-12 col-md-4 offset-md-1" id="stap-voor-stap">
+                      <div class="card tldr tebbie">
                         <div class="card-body">
                           <?= $page->opdracht_stappen()->kirbytext() ?>
                           <?= $page->opdracht_stappen_list()->kirbytext() ?>
                           <a id="skipOpdracht" class="btn btn-info" href="#figmastuk" role="button"><i class="fa fa-forward"></i> Naar figma</a>
                         </div>
                       </div>
-                      <div class="card tldr">
-                        <div class="card-header">
-                          Tutorial
-                        </div>
-                        <div class="card-body youtube">
-                          <?= $page->tutorial()->kirbytext() ?>
-                        </div>
-                      </div>
                     </div>
                 </div>
-                <div class="row" id="figmastuk">
+                <!-- <div class="row" id="figmastuk">
                   <hr>
                   <div class="col-12">
                     <h3>Probeer het zelf:</h3>
                     <iframe style="border: none;" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9LQEmwxWFgX235C8N883lv%2FWorkshop-Workflow-Data-Template%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                   </div>
                   <hr>
-                </div>
+                </div> -->
             </div>
         </section>
 
         <section class="new_section" id="toepassing">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 tekst-small">
-                      <h3><?= $page->toepassing_title()->kirbytext() ?></h3>
-                      <p><?= $page->toepassing_paragraph()->kirbytext() ?></p>
+                    <div class="col-12 col-md-7">
+                        <?= $page->toepassing_title()->kirbytext() ?>
+                        <?= $page->toepassing_subtitle()->kirbytext() ?>
+                        <?= $page->toepassing_paragraph()->kirbytext() ?>
                     </div>
-                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <?= $page->toepassing_img()->kirbytext() ?>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="new_section">
+        <section class="new_section" id="download">
             <div class="container">
                 <div class="row">
-                <div class="col-12 col-md-8">
-                        <h3>Download workshop bestanden</h3>
+                <div class="col-12">
+                        <h3>Download hier de workshop bestanden!</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <a href="../../assets/documents/[Workflow_Presentatie]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                        <a href="../../assets/documents/[Workflow_Presentatie]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download class="shoo">
                           <button class="button_download">Presentatie</button>
                         </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Voorbeelduitwerking]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download>
+                      <a href="../../assets/documents/[Workflow_Voorbeelduitwerking]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download class="shoo">
                         <button class="button_download">Voorbeeld uitwerking</button>
                       </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Opdracht_Template]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download>
+                      <a href="../../assets/documents/[Workflow_Opdracht_Template]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download class="shoo">
                         <button class="button_download">Uitwerk template</button>
                       </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Handout]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                      <a href="../../assets/documents/[Workflow_Handout]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download class="shoo">
                         <button class="button_download">Uitwerk handout</button>
                       </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Onderbouwing_Onderzoek]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                      <a href="../../assets/documents/[Workflow_Onderbouwing_Onderzoek]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download class="shoo">
                         <button class="button_download">Onderbouwing oid</button>
                       </a>
                     </div>
+                    <div class="col-12 col-md-4">
+                      <a href="https://github.com/DennisTinderbox/iuxd-intermediate" class="shoo">
+                        <button class="button_download krabbel">Stuur ons een krabbel</button>
+                      </a>
+                    </div>
                 </div>
-                <hr>
             </div>
         </section>
 
-        <section class="new_section">
+        <section id="bronnen">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8">
+                    <div class="col-12">
                         <h3>Bronnen</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-8">
                         <p><?= $page->bronnen()->kirbytext() ?></p>
                     </div>
                 </div>

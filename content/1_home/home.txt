@@ -17,11 +17,11 @@ Introduction-subtitle: #### Automatiseren? Dat klinkt lastig, maar dat is het ei
 Introduction-paragraph:
 
 In deze workshop leer je op een slimme manier te werken door je designtools te automatiseren, hierdoor ontstaat een soepeler designproces en heb je minder tijd nodig voor de taak die je doet. Met deze super power kun je meer tijd besteden aan zaken die er écht toe doen (zoals eerder bier halen). 🍺
-(image: pijplijn-letterlijk.png)
+(image: pijplijn-letterlijk_new.png)
 
 ----
 
-Introduction-tldr: #### In het kort
+Introduction-tldr: #### Nog korter <span>#MAND</span>
 
 ----
 
@@ -38,11 +38,15 @@ Voorbereiding-title: ### Voorbereiding
 
 ----
 
-Voorbereiding-paragraph:
+Voorbereiding-paragraph: Het klinkt natuurlijk een beetje gek dat je aan het begin van je werk extra tijd aan de voorbereiding investeert. Het is logisch om gelijk aan de slag te willen gaan. Toch is het vaak slimmer om even te bedenken welke taken je allemaal moet doen, en wat er vaker terugkeert. Zo kun je over je gehele project een hoop tijd winnen. Hoe je dat doet leggen we je hier uit.
 
-Het klinkt natuurlijk een beetje gek dat je aan het begin van je werk extra tijd aan de voorbereiding investeert. Het is logisch om gelijk aan de slag te willen gaan. Toch is het vaak slimmer om even te bedenken welke taken je allemaal moet doen, en wat er vaker terugkeert. Zo kun je over je gehele project een hoop tijd winnen. Hoe je dat doet leggen we je hier uit.
+----
 
-### Wat haal ik dan uit deze tijdsinvestering?
+Tijdsinvestering-title: ### Wat haal ik dan uit deze tijdsinvestering?
+
+----
+
+Tijdsinvestering-paragraph:
 
 De ANWB stelde project team diffərənt de volgende vraag:
 
@@ -51,7 +55,7 @@ De ANWB stelde project team diffərənt de volgende vraag:
 
 Een onderdeel van hieraan werken is het maken van veel diverse prototypes om erachter te komen wat de juiste oplossing en uitwerking van deze ontwerpvraag gaat zijn. De ontwerpkeuzen die we maken tijdens de exploration-fase binnen het prototypen moeten goed vastgelegd worden. Dit zouden we elke keer opnieuw, na het prototypen van een bepaalde feature, kunnen doen. Ons team heeft ervoor gekozen om tijd te investeren in een goede voorbereiding van het onderbouwen hiervan. Hierdoor is tussentijds keuzen goed onderbouwen ontzettend simpel geworden, besparen we hier veel tijd mee en kunnen we deze teruggewonnen tijd investeren in itereren op onze prototypes.
 
-(image: anwb.png)
+(image: timeline_v2.jpg)
 
 ----
 
@@ -72,7 +76,11 @@ Digitaal en met design werkt dat net zo. Weeg dus af wat een taak per keer kost,
 
 Stephen Covey vertelt een soortgelijk verhaal in zijn boek “The Seven Habits of Highly Effective People”. Hij noemt het principe ‘Sharpen the saw’.
 
-(image: sharp.png)
+----
+
+Kiezen-img:
+
+- zaag.jpg
 
 ----
 
@@ -84,7 +92,7 @@ Toolkit-paragraph:
 
 Net als in de fysieke wereld zijn er digitaal ontelbaar veel gereedschappen die je kan gebruiken. Vaak zijn dat web-applicaties zoals Google docs, Trello of Basecamp. Soms is het software die je eerst moet installeren zoals Sketch. Net als bij een timmerman is jouw toolkit van groot belang voor je werk. Hou dus goed bij welke tools je allemaal kent en waar je ze voor kan gebruiken. We hebben hier alvast een begin gemaakt.
 
-(image: toolbox.png)
+(image: toolbox_v2.jpg)
 
 ----
 
@@ -101,38 +109,31 @@ Soms kun je iets niet helemaal oplossen met een plug-in. Sommige gereedschappen 
 Een voorbeeld van zo’n tolk zijn de appliaties Zapier en IFTTT. Zapier en IFTTT zijn visuele interfaces die de technische APIs van diverse tools met elkaar laten praten en samenwerken. Het zijn een soort kleine robots die je op een visuele manier tussen twee tools kunt hangen, een instructie kunt geven en automatisch voor je uit kunt laten voeren. Op deze manier creeëren we een zogenoemde pipeline: we verbinden tool A (bijvoorbeeld Google Sheets) met Zapier als tussenstukje aan tool B (bijvoorbeeld Trello). Het tussenstukje, Zapier, geven we tijdens het aan elkaar koppelen een taak en stellen in hoe vaak het dit automatisch voor je uit moet voeren.
 
 
-(image: pratende-apps.png)
+(image: zapier_v2.jpg)
 
 ----
 
-Pipelining-title: ### Pipelines
+Pipelining-title: ## Pipelines
+
+----
+
+Pipelining-subtitle: #### Gereedschappen en programma’s met elkaar laten praten, en automatisch data en opdrachten aan elkaar laten geven noemen we een pipeline.
 
 ----
 
 Pipelining-paragraph:
 
-Een serie gereedschappen en programma’s met elkaar laten praten, en automatisch data en opdrachten aan elkaar laten geven noemen we een pipeline. Dat is een methode die in de computerwetenschappen al tijden wordt gebruikt. Sterker nog, je computer of telefoon werkt zo snel door het zelfde principe. Een serie aan instructies die een systeem zelfstandig uitvoert en een uitkomst genereert. Dat klinkt ingewikkeld, maar dat valt best mee. Er zijn namelijk veel tools die je kan gebruiken om het (jezelf) makkelijker te maken.
+Dat is een methode die in de computerwetenschappen al tijden wordt gebruikt. Sterker nog, je computer of telefoon werkt zo snel door het zelfde principe. Een serie aan instructies die een systeem zelfstandig uitvoert en een uitkomst genereert. Dat klinkt ingewikkeld, maar dat valt best mee. Er zijn namelijk veel tools die je kan gebruiken om het (jezelf) makkelijker te maken.
 
 ##### Let the robots do the work! 🤖
 
 ----
 
-pipelining-uitleg:
-
-### Pipeline voorbeelden
-
-(image: pipeline-voorbeelden.png)
-
-Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden.
-In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
-
-Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
-
-Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.
+Pipelining-uitleg-title: ## Voorbeelden
 
 ----
 
-Pipelining-tldr: #### In het kort
+Pipelining-tldr: #### Nog korter <span>#MAND</span>
 
 ----
 
@@ -144,58 +145,117 @@ Pipelining-tldr-list:
 
 ----
 
+Pipelining-carousel-1:
+
+Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht in tabelvorm. Maar wat als je een compleet rapport of document ontwerpt? Deze stata uit Google Sheet kunnen we automatisch in een Figma bestand laden.
+Wanneer we correcte styles in Figma gedefinieerd hebben. Wanneer de Google Sheet en het Figma bestand goed opgezet zijn krijgt de data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+
+- Google Sheets Figma plugin:
+https://www.figma.com/c/plugin/735770583268406934/Google-Sheets-Sync
+
+----
+
+Pipelining-carousel-1-img: (image: pipeline-1.png)
+
+----
+
+Pipelining-carousel-2:
+
+Wanneer je een onderzoek doet en hiervoor Google Forms gebruikt kun je automatisch de data over laten zetten naar een overzichtelijke Google Sheet.
+Wanneer er in de Google Sheet met resultaten specifieke resultaten zijn waar je een taak van wil maken in Trello kan dit geautomatiseerd:
+- Plaats een extra kolom in de sheet waarin je aangeeft dat een specifieke row een taak moet worden in Trello
+- Door middel van Zapier, een tooltje dat werkt als een soort visuele API, kun je jouw Google Sheet en Trello Board aan elkaar koppelen en automatisch elke regel in de sheet die jij aangegeven hebt om laten vormen tot een Trello Card.
+
+Je hebt nu nieuwe taken voor jou en je team gegenereerd aan de hand van je onderzoeksresultaten.
+
+- Zapier integraties voor Google Sheets en Trello:
+https://zapier.com/apps/trello/integrations/google-sheets
+
+----
+
+Pipelining-carousel-2-img: (image: pipeline-2.png)
+
+----
+
+Pipelining-carousel-3:
+
+Werk je op zondagavond? Is Jasper z’n deadline over een uur? Schrijf je documenten in Google Docs?
+
+Met Zapier, een soort visuele API waarmee je services aan elkaar kunt knopen, kun je je Google Docs en Google Drive koppelen aan Basecamp. Documenten die je maakt kunnen automatisch geupload worden wanneer jij ze opslaat. Op deze manier hoef je niet meer handmatig je documenten te uploaden, altijd handig in die laatste minuut voor een deadline.
+
+- Zapier integraties voor Google Drive en Basecamp:
+https://zapier.com/apps/google-drive/integrations/basecamp3
+
+----
+
+Pipelining-carousel-3-img: (image: pipeline3.png)
+
+----
+
+Robot-title: ## Zapier en If This Then That
+
+----
+
+Robot-subtitle: #### Applicaties en services aan elkaar koppelen is niet lastig wanneer je de juiste tools inzet.
+
+----
+
+Robot-paragraph:
+
+Zapier en IFTTT zijn twee simpele tooltjes die iedereen kan gebruiken. Ze gebruiken een input (bijvoorbeeld een nieuwe rij in een Google Sheet) van service X en een output die ze in service Y (bijvoorbeeld een nieuwe card in Trello) plaatsen.
+De services zijn eigenlijk een soort "tussenpersoon" die je, met een visuele drag-and-drop interface, tussen verschillende applicaties kan hangen om dingen snel te automatiseren.
+De nieuwe plug-ins waar Figma tegenwoordig mee uitgebreid is doen eigenlijk een beetje hetzelfde. Door de juiste "tussenpersonen" te gebruiken kunnen we ontzettend veel programma's aan elkaar koppelen en het lastige werk voor ons laten doen.
+
+----
+
+Robot-img-1: (image: zapier.png)
+
+----
+
+Robot-img-2: (image: ifttt.png)
+
+----
+
 Opdracht-title: ## Opdracht: Maak je eigen pipeline
 
 ----
 
 Opdracht-paragraph:
 
-Stel, je wil voor een drogist webshop een prototype maken waarbij je de content snel kan aanpassen naar verschillende type gebruikers. De een heeft meer affiniteit met make-up en de ander eerder met scheerspullen.
+####Stel, je wil voor een drogist webshop een prototype maken waarbij je de content snel kan aanpassen naar verschillende type gebruikers. De een heeft meer affiniteit met make-up en de ander eerder met scheerspullen.
 
-Elke keer je content handmatig aanpassen kost enorm veel tijd. Dit kan sneller met een pipeline.
+####Elke keer je content handmatig aanpassen kost enorm veel tijd. Dit kan sneller met een pipeline.
 
+#####Stap 1 <span>#voorbereiding</span>
 We beginnen met het installeren van een plugin voor Figma: Google Sheets Sync.
-Deze plugin laat je data uit tabellen van Google inladen. Je kan hem downloaden via de link hieronder.
+Deze plugin laat je data uit tabellen van Google inladen. Je kan hem downloaden via de link hiernaast.
 
-#####Google Sheets Sync plugin voor Figma:
-http://tiny.cc/figmaplugin
+#####Stap 2 <span>#GoogleSheet</span>
+We hebben alvast een Google Sheets tabel aangemaakt. De kolomheaders corresponderen straks met laagnamen in Figma. Zet alvast de juiste namen boven de kolommen.
 
-
-We hebben alvast een Google Sheets tabel aangemaakt. Die vind je op onderstaande link.
-
-#####Google Sheet:
-https://bit.ly/2XiFMVo
-
-De kolomheaders corresponderen straks met laagnamen in Figma. Zet alvast de juiste namen boven de kolommen.
-
-Open het Figma document via de link hieronder.
-
-#####Figma document:
-https://bit.ly/2qZRsjI
-
-Geef de tekstlagen in het Figma document dezelfde naam als de kolomheaders in de Google Sheets. Maar met een hekje ervoor.  Bijvoorbeeld #productnaam om overeen te komen met de kolom die productnaam heet.
+#####Stap 3 <span>#FigmaMagic</span>
+Geef de tekstlagen in het Figma document dezelfde naam als de kolomheaders in de Google Sheets. Maar met een hekje ervoor. Bijvoorbeeld #productnaam om overeen te komen met de kolom die productnaam heet.
 
 Koppel de Sheet met het Figmadocument door in het menu op plugins te klikken. Vervolgens klik je op Google Sheets Sync. Er opent een venster waar je de link van de Sheet kan droppen. Kies in de dropdown “Update entire document” en klik vervolgens op Fetch and sync.
 
+#####Stap 4 <span>#Tutorial</span>
+Ohja doet ook even onderstaande video kijken want die legt het veel makkelijker uit.
+Vergeet niet een duimpje omhoog te geven en te abonneren.
+
+#####Stap 5 <span>#BierDrinken</span>
 Je hebt nu dynamische content in je prototype. Proost! 🍺
 
 ----
 
-Opdracht-stappen: #### We lopen je er stap voor stap doorheen
+Opdracht-stappen: #### Tebbie nodig dan?
 
 ----
 
 Opdracht-stappen-list:
 
-- Download de Figma plugin.
-- Open de Google Sheet.
-- Geef de kolomheaders de juiste namen.
-- Open het Figma document
-- Wijzig de laagnamen met een # die overeenkomt met de kolomheader.
-- In het pluginmenu open je de Google Sheets Sync plugin.
-- Drop de link naar de Google Sheet.
-- Kies in de dropdown “Update entire document”.
-- Druk op “Fetch and sync”.
+- Google Sheets Sync plugin: (link: http://tiny.cc/figmaplugin text: http://tiny.cc/figmaplugin)
+- Google Sheet: (link: https://bit.ly/2XiFMVo text: https://bit.ly/2XiFMVo)
+- Figma document: (link: https://bit.ly/2qZRsjI text: https://bit.ly/2qZRsjI)
 
 ----
 
@@ -203,15 +263,19 @@ Tutorial: (video: https://youtu.be/7UR5Njw4D-o)
 
 ----
 
-Toepassing-title: ### Toepassing: Hoe pas ik dit zelf toe in het CMD proces?
+Toepassing-title: ## Toepassing
 
 ----
 
-Toepassing-paragraph:
+Toepassing-subtitle: #### Hoe pas ik dit zelf toe in het CMD proces?
 
-Je hebt ondertussen zelf waarschijnlijk al bedacht welke tools je kan koppelen om je workflow op CMD makkelijker te maken. Hieronder hebben we alvast een paar voorbeelden per competentie.
+----
 
-(image: competenties.png)
+Toepassing-paragraph: Je hebt ondertussen zelf waarschijnlijk al bedacht welke tools je kan koppelen om je workflow op CMD makkelijker te maken. Hieronder hebben we alvast een paar voorbeelden per competentie.
+
+----
+
+Toepassing-img: (image: toepassing-competenties.png)
 
 ----
 
@@ -219,3 +283,22 @@ Bronnen:
 
 - Franklin Covey. (z.d.). Habit 7: Sharpen the Saw. Geraadpleegd op 16 november 2019, van [https://www.franklincovey.com/the-7-habits/habit-7.html](https://www.franklincovey.com/the-7-habits/habit-7.html)
 - King, A., & Rands in Repose. (2009, 3 november). The Foamy Rules for Rabid Tools. Geraadpleegd op 16 november 2019, van [https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/](https://randsinrepose.com/archives/the-foamy-rules-for-rabid-tools/)
+
+----
+
+Robot-img: (image: zapier-ifttt.png)
+
+----
+
+Pipelining-uitleg:
+
+### Pipeline voorbeelden
+
+(image: pipeline-voorbeelden.png)
+
+Je ziet hier bijvoorbeeld dat je de resultaten uit een typeform enquête direct kan laten exporteren naar Google Sheets voor een handig overzicht. Vervolgens kun je die data automatisch in een Figma bestand laden.
+In dat bestand krijgt die data een styling mee die je vervolgens als mooi vormgegeven rapport kan delen met je team of opdrachtgever.
+
+Zo kun je dankzij Zapier ook de data uit de Sheets naar Trello sturen, die vervolgens taken voor je team aanmaakt.
+
+Of je laat Dribble een berichtje in een Slack groep sturen op het moment dat je een nieuw design upload.

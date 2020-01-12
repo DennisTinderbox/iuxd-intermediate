@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     font-size: 100%;
     font-weight: normal;
-    font-family: Inter-Regular, sans-serif;
+    font-family: 'ModernEra-Regular', sans-serif;
     text-transform: none;
     text-decoration: none;
     vertical-align: baseline;
@@ -20,12 +20,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-rendering: optimizeSpeed;
 }
 :root {
-    --color-primary: #8f8dce;
+    --color-primary: #273555;
     --color-secondary: #545377;
     --color-success: #55d18f;
     --color-danger: #E74E1A;
     --color-warning: #ffd968;
-    --color-info: #709fff;
+    --color-green: #709fff;
     --color-link: #5f8ff1;
     --color-dark: #383751;
     --color-light: #FAFAFA;
@@ -36,6 +36,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     --color-eenGoeieOranje: #E74E1A;
     --color-grunerTag: #8DEEBA;
 
+    --color-blue900: #273555;
+    --color-blue700: #808BA1;
+    --color-green: #00D5CF;
+    --color-gray300: #FBF8F6;
+    --color-borderLine: #F5F2F0;
+    --color-white: #FFFFFF;
+
+
 
     --transition: all .24s ease-in 0s;
     --moz-transition: all .24s ease-in 0s;
@@ -45,11 +53,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 ::selection {
     color: #FFFFFF;
-    background: var(--color-warning);
+    background: var(--color-green);
 }
 ::-moz-selection {
     color: #FFFFFF;
-    background: var(--color-warning);
+    background: var(--color-green);
 }
 
 body {
@@ -74,82 +82,110 @@ button:focus,*:focus,.btn.focus,.btn:focus{outline:0;}
 
 
 /* ============FONTS============ */
-@font-face {font-family: 'Inter-Bold';
-    /* src: url('../fonts/Inter-Bold.otf') format('opentype'); */
-    src: url('../fonts/Inter-Bold.eot') format('embedded-opentype');
-    src: url('../fonts/Inter-Bold.ttf') format('truetype');
-    src: url('../fonts/Inter-Bold.woff') format('woff');
-    src: url('../fonts/Inter-Bold.woff2') format('woff2');
+@font-face {font-family: 'ModernEra-Bold';
+    /* src: url('../assets/fonts/Newzald-Bold.otf') format('opentype'); */
+    src: url('../fonts/ModernEra-Bold.eot') format('embedded-opentype');
+    src: url('../fonts/ModernEra-Bold.ttf') format('truetype');
+    src: url('../fonts/ModernEra-Bold.woff') format('woff');
+    src: url('../fonts/ModernEra-Bold.woff2') format('woff2');
 }
 
-@font-face {font-family: 'Inter-Regular';
-    /* src: url('../fonts/Inter-Regular.otf') format('opentype'); */
-    src: url('../fonts/Inter-Regular.eot') format('embedded-opentype');
-    src: url('../fonts/Inter-Regular.ttf') format('truetype');
-    src: url('../fonts/Inter-Regular.woff') format('woff');
-    src: url('../fonts/Inter-Regular.woff2') format('woff2');
+@font-face {font-family: 'ModernEra-Medium';
+    /* src: url('../assets/fonts/Newzald-Regular.otf') format('opentype'); */
+    src: url('../fonts/ModernEra-Medium.eot') format('embedded-opentype');
+    src: url('../fonts/ModernEra-Medium.ttf') format('truetype');
+    src: url('../fonts/ModernEra-Medium.woff') format('woff');
+    src: url('../fonts/ModernEra-Medium.woff2') format('woff2');
+}
+
+@font-face {font-family: 'ModernEra-Regular';
+    /* src: url('../assets/fonts/Newzald-Regular.otf') format('opentype'); */
+    src: url('../fonts/ModernEra-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/ModernEra-Regular.ttf') format('truetype');
+    src: url('../fonts/ModernEra-Regular.woff') format('woff');
+    src: url('../fonts/ModernEra-Regular.woff2') format('woff2');
 }
 
 h1, h2, h3, button {
-    font-family: 'Inter-Bold';
+    font-family: 'ModernEra-Bold', sans-serif;
 }
 
 h4, h5, h6, p, input {
-    font-family: 'Inter-Regular';
+    font-family: 'ModernEra-Regular', sans-serif;
+}
+
+.card h4 {
+    font-family: 'ModernEra-Bold', sans-serif;
 }
 
 h1 {
     font-size: 3rem;
-    color: var(--color-light);
+    color: var(--color-white);
     text-align: center;
     margin-bottom: 24px;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 2rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-blue900);
     text-align: left;
     margin-bottom: 16px;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 2rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-blue900);
     text-align: left;
     margin: 40px 0px 16px 0px;
+    font-weight: 600;
+}
+
+#download h3 {
+    color: var(--color-white);
+    text-align: center;
+    margin-bottom: 56px;
 }
 
 h4 {
     font-size: 1.5rem;
-    color: var(--color-donkergrijs);
+    color: var(--color-blue900);
     text-align: left;
     margin: 16px 0px;
 }
 
 h5 {
     font-size: 1.1rem;
-    color: var(--color-secondary);
+    color: var(--color-blue900);
     font-weight: 600;
 }
 
 a{
-  color: var(--color-link);
+  color: var(--color-green);
+}
 
+a:hover{
+    color: var(--color-green);
 }
 
 .workflowHeader h4 {
-    color: var(--color-lichtgrijs);
+    color: var(--color-white);
 }
 
 .new_section:first-child h4, .workflowHeader h4 {
     text-align: center;
 }
 
+p, li {
+    font-size: 1.1rem;
+    color: var(--color-blue900);
+}
+
 p {
-    font-size: 1rem;
-    color: var(--color-piecieDonkergrijs);
     margin-bottom: 24px;
 }
+
 @media only screen and (min-width: 765px){
   .tekst-small p{
     padding-right: 50vw;
@@ -160,7 +196,7 @@ p {
     font-size: 18px;
     font-style: italic;
     padding-left: 20px;
-    color: var(--color-primary);
+    color: var(--color-blue900);
     border-left: 3px solid;
     font-weight: 400;
 }
@@ -168,37 +204,65 @@ p {
     padding-left: 22px;
     padding-top: 5px;
     padding-bottom: 20px;
-    color: var(--color-secondary);
+    color: var(--color-blue900);
+}
+
+h4 span, h5 span{
+  color: var(--color-green);
+}
+
+#opdracht h5{
+  font-size: 1.5rem;
+  margin: 50px 0 20px 0;
 }
 
 /* ============LINKS & BUTTONS============ */
 button.button_download {
-    font-size: 1.25rem;
-    width: 100%;
-    text-align: left;
-    background-color: var(--color-lichtgrijs);
-    color: var(--color-secondary);
-    border-radius: 16px;
-    border: none;
-    margin-bottom: 20px;
-    padding: 24px;
-    display: flex;
-    align-items: center;
-    transition: var(--transition);
-    transition: var(--webkit-transition);
-    transition: var(--o-transition);
-    transition: var(--moz-transition);
-    outline: 0;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-gray300);
+  color: var(--color-blue900);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+  transition: var(--webkit-transition);
+  transition: var(--o-transition);
+  transition: var(--moz-transition);
+  outline: 0;
 }
 
 button.button_download::before {
     content: url(../icons/icon_download.svg);
     padding-right: 16px;
+    padding-top: 6px;
 }
 
+button.button_download.krabbel{
+  background: none;
+  border: solid 2px var(--color-green);
+  color: var(--color-green)
+}
+
+button.button_download.krabbel:hover{
+  box-shadow: none;
+}
+
+button.button_download.krabbel::before {
+  content: url(../icons/icon_krabbel.svg);
+  padding-right: 16px;
+}
 button.button_download:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.23);
+}
+
+a.shoo{
+  text-decoration: none;
 }
 
 button.button_download:active {
@@ -213,8 +277,7 @@ button.button_download:active {
     border-radius: 30px;
     padding: .575rem 1.35rem;
     transition: 0.15s ease-in;
-    color: #fff;
-    font-weight: 600;
+    color: var(--color-white);
 }
 
 .btn-xl {
@@ -222,16 +285,16 @@ button.button_download:active {
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
+  background-color: var(--color-green);
 }
 .btn-primary:hover {
-  background: var(--color-primary);
+  background: var(--color-green);
   transform: scale(1.05);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus,
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-  background: var(--color-primary);
+  background: var(--color-green);
   box-shadow: none;
   animation: buttonpress 0.2s ease-out;
 }
@@ -294,16 +357,16 @@ button.button_download:active {
   animation: buttonpress 0.2s ease-out;
 }
 .btn-info {
-  background: var(--color-info);
+  background: var(--color-green);
 }
 .btn-info:hover {
-  background: var(--color-info);
+  background: var(--color-green);
   transform: scale(1.05);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
 }
 .btn-info:not(:disabled):not(.disabled).active:focus, .btn-info:not(:disabled):not(.disabled):active:focus, .show>.btn-info.dropdown-toggle:focus,
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
-  background: var(--color-info);
+  background: var(--color-green);
   box-shadow: none;
   animation: buttonpress 0.2s ease-out;
 }
@@ -416,7 +479,13 @@ button.button_download:active {
 }
 /* ============LAYOUTS GENERAL============ */
 .new_section {
-    margin: 80px 0px;
+    /* margin: 80px 0px; */
+    padding: 88px 0px;
+}
+
+#startDiv, #pipeline, #zapier_row, #toepassing, #bronnen {
+    background-color: var(--color-gray300);
+    padding: 88px 0px;
 }
 
 .col-12.center {
@@ -456,9 +525,10 @@ figure.video {
 }
 
 .card{
-  background: #FAFAFA;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.09);
-  border-radius: 16px;
+  background: var(--color-white);
+  border-radius: 40px;
+  border: 2px solid var(--color-borderLine) !important;
+  padding: 16px;
   border: 0;
 }
 .card-header:first-child{
@@ -486,7 +556,7 @@ figure.video {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(../documents/background.jpg);
+    background-image: url(../documents/background2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -497,15 +567,120 @@ figure.video {
 }
 
 /* ============ Intro ============ */
-.intro{
-  padding-top: 40px;
-}
 .tldr{
   margin-top: 27px
 }
 
-/* ============ Uitleg ============ */
+/* ============ UNIT ============ */
 .uitleg_section{
+  padding: 100px 0;
+}
+.unit{
+  position: relative;
+}
+.scrollspy-example {
+  position: relative;
+  height: 800px;
+  overflow: auto;
+  background: #FBF8F6;
+  border: 2px solid #F5F2F0;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 0 40px;
+}
+.scrollspy-example::-webkit-scrollbar{
+  display: none;
+}
+.scrollspy-example {
+  -ms-overflow-style: none;
+}
+.list-group-item {
+  background: #FBF8F6;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  border: 0;
+  border-radius: 8px!important;
+  padding: 18px;
+  font-weight: 600;
+}
+.list-group-item.active{
+  background-color: var(--color-blue900);
+}
+.unit h5{
+  font-size: 18px;
+  color: var(--color-blue700);
+  font-weight: 500;
+  font-style: italic;
+}
+.unit h6{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.unit figure img {
+    border-radius: 40px;
+    position: relative;
+}
+#list-item-1 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 236px;
+    width: 450px;
+    top: 214px;
+}
+#list-item-2 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 236px;
+    width: 450px;
+    top: 214px;
+}
+#list-item-3 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 340px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 66px;
+    width: 208px;
+    top: 384px;
+}
+#list-item-4 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 236px;
+    width: 450px;
+    top: 240px;
+}
+#list-item-5 figure::before {
+    content: " ";
+    display: block;
+    padding-bottom: 200px;
+    background-color: var(--color-blue700);
+    position: relative;
+    border-radius: 50px;
+    left: 326px;
+    width: 300px;
+    top: 214px;
+}
+.unit figure {
+    margin: -170px 0 80px 0;
+}
+/* ============ Uitleg ============ */
+/* .uitleg_section{
   background: var(--color-donkergrijs)
 }
 .uitleg{
@@ -525,4 +700,90 @@ figure.video {
   .scrollspy img {
     padding: 0 15%;
   }
+} */
+
+.card.tebbie{
+    background-color: var(--color-gray300);
+}
+
+.extraspace{
+  margin: 70px 0 40px 0;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-green);
+    border-radius: 100px;
+    position: unset;
+    margin-bottom: 32px;
+}
+
+.carousel-control-prev {
+    margin-right: 16px;
+}
+
+.carousel-item {
+    min-height: 620px; /*Ugly fix but it works for now: height of the carousel-items aren't different anymore*/
+}
+
+.carousel-content {
+    /* width: 100%; */
+    display: flex;
+}
+
+.carousel-content p {
+    padding-right: 0;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../icons/carousel-arrow-right.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../icons/carousel-arrow-left.svg);
+}
+
+#pipeline .tekst-small {
+    margin-top: 80px;
+}
+
+#pipeline .carousel {
+    margin-top: -58px;
+}
+
+#zapier_row {
+    padding-bottom: 0;
+}
+
+#stap-voor-stap {
+    height: 100%;
+    display: block;
+    position: sticky;
+    top: 0;
+}
+
+#bronnen ul{
+    padding-left: 20px;
+}
+
+#bronnen a, .tldr ul a {
+    display: block;
+}
+
+.new_section#download {
+    margin: 0;
+}
+
+#download {
+    background-image: url(../documents/background_download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
