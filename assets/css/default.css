@@ -207,34 +207,62 @@ p {
     color: var(--color-blue900);
 }
 
+h4 span, h5 span{
+  color: var(--color-green);
+}
+
+#opdracht h5{
+  font-size: 1.5rem;
+  margin: 50px 0 20px 0;
+}
+
 /* ============LINKS & BUTTONS============ */
 button.button_download {
-    font-size: 1.25rem;
-    width: 100%;
-    text-align: left;
-    background-color: var(--color-gray300);
-    color: var(--color-blue900);
-    border-radius: 100px;
-    border: none;
-    margin-bottom: 20px;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    transition: var(--transition);
-    transition: var(--webkit-transition);
-    transition: var(--o-transition);
-    transition: var(--moz-transition);
-    outline: 0;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-gray300);
+  color: var(--color-blue900);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+  transition: var(--webkit-transition);
+  transition: var(--o-transition);
+  transition: var(--moz-transition);
+  outline: 0;
 }
 
 button.button_download::before {
     content: url(../icons/icon_download.svg);
     padding-right: 16px;
+    padding-top: 6px;
 }
 
+button.button_download.krabbel{
+  background: none;
+  border: solid 2px var(--color-green);
+  color: var(--color-green)
+}
+
+button.button_download.krabbel:hover{
+  box-shadow: none;
+}
+
+button.button_download.krabbel::before {
+  content: url(../icons/icon_krabbel.svg);
+  padding-right: 16px;
+}
 button.button_download:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.23);
+}
+
+a.shoo{
+  text-decoration: none;
 }
 
 button.button_download:active {
@@ -674,7 +702,13 @@ figure.video {
   }
 } */
 
+.card.tebbie{
+    background-color: var(--color-gray300);
+}
 
+.extraspace{
+  margin: 70px 0 40px 0;
+}
 
 .carousel-controls {
     display: flex;
@@ -733,6 +767,14 @@ figure.video {
     display: block;
     position: sticky;
     top: 0;
+}
+
+#bronnen ul{
+    padding-left: 20px;
+}
+
+#bronnen a, .tldr ul a {
+    display: block;
 }
 
 .new_section#download {

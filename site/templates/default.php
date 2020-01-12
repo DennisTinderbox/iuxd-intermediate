@@ -217,17 +217,13 @@
                       <h3><?= $page->opdracht_title()->kirbytext() ?></h3>
                     </div>
                     <div class="col">
-                      <div class="card tldr">
-                        <div class="card-body">
                           <?= $page->opdracht_paragraph()->kirbytext() ?>
                           <?= $page->tutorial()->kirbytext() ?>
-                          <h3>Probeer het zelf:</h3>
+                          <h3 class="extraspace">Probeer het zelf:</h3>
                           <iframe style="border: none;" width="100%" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9LQEmwxWFgX235C8N883lv%2FWorkshop-Workflow-Data-Template%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-                        </div>
-                      </div>
                     </div>
                     <div class="col-12 col-md-4 offset-md-1" id="stap-voor-stap">
-                      <div class="card tldr">
+                      <div class="card tldr tebbie">
                         <div class="card-body">
                           <?= $page->opdracht_stappen()->kirbytext() ?>
                           <?= $page->opdracht_stappen_list()->kirbytext() ?>
@@ -273,28 +269,33 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <a href="../../assets/documents/[Workflow_Presentatie]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                        <a href="../../assets/documents/[Workflow_Presentatie]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download class="shoo">
                           <button class="button_download">Presentatie</button>
                         </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Voorbeelduitwerking]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download>
+                      <a href="../../assets/documents/[Workflow_Voorbeelduitwerking]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download class="shoo">
                         <button class="button_download">Voorbeeld uitwerking</button>
                       </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Opdracht_Template]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download>
+                      <a href="../../assets/documents/[Workflow_Opdracht_Template]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.fig" download class="shoo">
                         <button class="button_download">Uitwerk template</button>
                       </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Handout]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                      <a href="../../assets/documents/[Workflow_Handout]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download class="shoo">
                         <button class="button_download">Uitwerk handout</button>
                       </a>
                     </div>
                     <div class="col-12 col-md-4">
-                      <a href="../../assets/documents/[Workflow_Onderbouwing_Onderzoek]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download>
+                      <a href="../../assets/documents/[Workflow_Onderbouwing_Onderzoek]_Workshop_ van_Heest_Michel_0908582_Klein_Dennis_0927931.pdf" download class="shoo">
                         <button class="button_download">Onderbouwing oid</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <a href="https://github.com/DennisTinderbox/iuxd-intermediate" class="shoo">
+                        <button class="button_download krabbel">Stuur ons een krabbel</button>
                       </a>
                     </div>
                 </div>
@@ -304,7 +305,7 @@
         <section id="bronnen">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-7">
+                    <div class="col-12">
                         <h3>Bronnen</h3>
                         <p><?= $page->bronnen()->kirbytext() ?></p>
                     </div>

@@ -21,7 +21,7 @@ In deze workshop leer je op een slimme manier te werken door je designtools te a
 
 ----
 
-Introduction-tldr: #### Nog korter #MAND
+Introduction-tldr: #### Nog korter <span>#MAND</span>
 
 ----
 
@@ -133,7 +133,7 @@ Pipelining-uitleg-title: ## Voorbeelden
 
 ----
 
-Pipelining-tldr: #### Nog korter #MAND
+Pipelining-tldr: #### Nog korter <span>#MAND</span>
 
 ----
 
@@ -222,52 +222,40 @@ Opdracht-title: ## Opdracht: Maak je eigen pipeline
 
 Opdracht-paragraph:
 
-Stel, je wil voor een drogist webshop een prototype maken waarbij je de content snel kan aanpassen naar verschillende type gebruikers. De een heeft meer affiniteit met make-up en de ander eerder met scheerspullen.
+####Stel, je wil voor een drogist webshop een prototype maken waarbij je de content snel kan aanpassen naar verschillende type gebruikers. De een heeft meer affiniteit met make-up en de ander eerder met scheerspullen.
 
-Elke keer je content handmatig aanpassen kost enorm veel tijd. Dit kan sneller met een pipeline.
+####Elke keer je content handmatig aanpassen kost enorm veel tijd. Dit kan sneller met een pipeline.
 
+#####Stap 1 <span>#voorbereiding</span>
 We beginnen met het installeren van een plugin voor Figma: Google Sheets Sync.
-Deze plugin laat je data uit tabellen van Google inladen. Je kan hem downloaden via de link hieronder.
+Deze plugin laat je data uit tabellen van Google inladen. Je kan hem downloaden via de link hiernaast.
 
-#####Google Sheets Sync plugin voor Figma:
-http://tiny.cc/figmaplugin
+#####Stap 2 <span>#GoogleSheet</span>
+We hebben alvast een Google Sheets tabel aangemaakt. De kolomheaders corresponderen straks met laagnamen in Figma. Zet alvast de juiste namen boven de kolommen.
 
-
-We hebben alvast een Google Sheets tabel aangemaakt. Die vind je op onderstaande link.
-
-#####Google Sheet:
-https://bit.ly/2XiFMVo
-
-De kolomheaders corresponderen straks met laagnamen in Figma. Zet alvast de juiste namen boven de kolommen.
-
-Open het Figma document via de link hieronder.
-
-#####Figma document:
-https://bit.ly/2qZRsjI
-
-Geef de tekstlagen in het Figma document dezelfde naam als de kolomheaders in de Google Sheets. Maar met een hekje ervoor.  Bijvoorbeeld #productnaam om overeen te komen met de kolom die productnaam heet.
+#####Stap 3 <span>#FigmaMagic</span>
+Geef de tekstlagen in het Figma document dezelfde naam als de kolomheaders in de Google Sheets. Maar met een hekje ervoor. Bijvoorbeeld #productnaam om overeen te komen met de kolom die productnaam heet.
 
 Koppel de Sheet met het Figmadocument door in het menu op plugins te klikken. Vervolgens klik je op Google Sheets Sync. Er opent een venster waar je de link van de Sheet kan droppen. Kies in de dropdown “Update entire document” en klik vervolgens op Fetch and sync.
 
+#####Stap 4 <span>#Tutorial</span>
+Ohja doet ook even onderstaande video kijken want die legt het veel makkelijker uit.
+Vergeet niet een duimpje omhoog te geven en te abonneren.
+
+#####Stap 5 <span>#BierDrinken</span>
 Je hebt nu dynamische content in je prototype. Proost! 🍺
 
 ----
 
-Opdracht-stappen: #### We lopen je er stap voor stap doorheen
+Opdracht-stappen: #### Tebbie nodig dan?
 
 ----
 
 Opdracht-stappen-list:
 
-- Download de Figma plugin.
-- Open de Google Sheet.
-- Geef de kolomheaders de juiste namen.
-- Open het Figma document
-- Wijzig de laagnamen met een # die overeenkomt met de kolomheader.
-- In het pluginmenu open je de Google Sheets Sync plugin.
-- Drop de link naar de Google Sheet.
-- Kies in de dropdown “Update entire document”.
-- Druk op “Fetch and sync”.
+- Google Sheets Sync plugin: (link: http://tiny.cc/figmaplugin text: http://tiny.cc/figmaplugin)
+- Google Sheet: (link: https://bit.ly/2XiFMVo text: https://bit.ly/2XiFMVo)
+- Figma document: (link: https://bit.ly/2qZRsjI text: https://bit.ly/2qZRsjI)
 
 ----
 
