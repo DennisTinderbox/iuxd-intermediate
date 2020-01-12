@@ -57,6 +57,11 @@
         <section class="uitleg_section">
             <div class="container unit">
                 <div class="row">
+                    <div class="col-12">
+                        <h2>Waarom?</h2>
+                    </div>
+                </div>
+                <div class="row">
                   <div id="list-example" class="list-group col-3">
                     <a class="list-group-item list-group-item-action" href="#list-item-1">Voorbereiding</a>
                     <a class="list-group-item list-group-item-action" href="#list-item-2">Tijdsinvestering</a>
@@ -216,10 +221,12 @@
                         <div class="card-body">
                           <?= $page->opdracht_paragraph()->kirbytext() ?>
                           <?= $page->tutorial()->kirbytext() ?>
+                          <h3>Probeer het zelf:</h3>
+                          <iframe style="border: none;" width="100%" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9LQEmwxWFgX235C8N883lv%2FWorkshop-Workflow-Data-Template%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                         </div>
                       </div>
                     </div>
-                    <div class="col-12 col-md-4 offset-md-1">
+                    <div class="col-12 col-md-4 offset-md-1" id="stap-voor-stap">
                       <div class="card tldr">
                         <div class="card-body">
                           <?= $page->opdracht_stappen()->kirbytext() ?>
@@ -229,14 +236,14 @@
                       </div>
                     </div>
                 </div>
-                <div class="row" id="figmastuk">
+                <!-- <div class="row" id="figmastuk">
                   <hr>
                   <div class="col-12">
                     <h3>Probeer het zelf:</h3>
                     <iframe style="border: none;" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9LQEmwxWFgX235C8N883lv%2FWorkshop-Workflow-Data-Template%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
                   </div>
                   <hr>
-                </div>
+                </div> -->
             </div>
         </section>
 

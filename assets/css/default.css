@@ -728,6 +728,13 @@ figure.video {
     padding-bottom: 0;
 }
 
+#stap-voor-stap {
+    height: 100%;
+    display: block;
+    position: sticky;
+    top: 0;
+}
+
 .new_section#download {
     margin: 0;
 }
